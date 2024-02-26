@@ -1,42 +1,28 @@
 #
 # Copyright(C) 2014 Pedro H. Penna <pedrohenriquepenna@gmail.com>
 #
-# Builds CAP Benchmark suite for x86 architecture.
-#
 
 # Directories.
-export BINDIR    = $(CURDIR)/bin
-export INCDIR    = $(CURDIR)/include
-export LIBDIR    = $(CURDIR)/lib
-export LIBSRCDIR = $(CURDIR)/libsrc
-export SRCDIR    = $(CURDIR)/src
+export BINDIR  = $(CURDIR)/bin
 
-# Tool chain.
-export CC = gcc
-export AR = ar
-
-# Tool chain configuration.
-export CFLAGS = -Wall -Wextra -Werror -O3
-export CFLAGS += -I $(INCDIR)
-export ARFLAGS = -vq
-
-# Libraries.
-export LIB = libcapb
-export LIBS = $(LIBDIR)/$(LIB).a -lm -fopenmp 
-
-.PHONY: lib
-
-# Builds all kernels.
-all: lib
+# Builds all kernels for Intel x86.
+all-x86:
 	mkdir -p bin
-	cd $(SRCDIR) && $(MAKE) all
-	
-# Builds kernel library.
-lib:
-	mkdir -p lib
-	cd $(LIBSRCDIR) && $(MAKE) all
-	
+	cd x86 && $(MAKE) all BINDIR=$(BINDIR)
+
+# Builds all kernels for MPPA-256.
+all-mppa256: 
+	mkdir -p bin
+	cd mppa256 && $(MAKE) all BINDIR=$(BINDIR)
+
+# Builds all kernels for Gem5 Simulator
+# IMPORTANT: Must use a compatible Kernel
+all-gem5:
+	mkdir -p bin
+	cd gem5 && $(MAKE) all BINDIR=$(BINDIR)
+
 # Cleans compilation files.
 clean:
-	cd $(LIBSRCDIR) && $(MAKE) clean
-	cd $(SRCDIR) && $(MAKE) clean
+	cd x86 && $(MAKE) clean BINDIR=$(BINDIR)
+	cd mppa256 && $(MAKE) clean BINDIR=$(BINDIR)
+	cd gem5 && $(MAKE) clean BINDIR=$(BINDIR)
