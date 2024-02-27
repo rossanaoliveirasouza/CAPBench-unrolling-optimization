@@ -1,0 +1,71 @@
+Instruções Ciclos Cache_References Cache_Misses
+    15.610.955.916      instructions:u            #    0,77  insn per cycle         
+    20.278.381.494      cycles:u                                                    
+       810.012.846      cache-references:u                                          
+        44.106.550      cache-misses:u            #    5,445 % of all cache refs    
+     1.513.068.191      branches:u                                                  
+    15.605.536.526      instructions:u            #    0,76  insn per cycle         
+    20.529.038.629      cycles:u                                                    
+       811.453.845      cache-references:u                                          
+        44.232.215      cache-misses:u            #    5,451 % of all cache refs    
+     1.511.518.835      branches:u                                                  
+    15.605.634.344      instructions:u            #    0,77  insn per cycle         
+    20.227.786.103      cycles:u                                                    
+       813.203.263      cache-references:u                                          
+        44.013.102      cache-misses:u            #    5,412 % of all cache refs    
+     1.511.547.314      branches:u                                                  
+    15.605.557.124      instructions:u            #    0,77  insn per cycle         
+    20.394.901.686      cycles:u                                                    
+       815.597.736      cache-references:u                                          
+        44.302.492      cache-misses:u            #    5,432 % of all cache refs    
+     1.511.524.749      branches:u                                                  
+    15.605.554.225      instructions:u            #    0,77  insn per cycle         
+    20.311.539.272      cycles:u                                                    
+       812.855.001      cache-references:u                                          
+        49.250.413      cache-misses:u            #    6,059 % of all cache refs    
+     1.511.524.861      branches:u                                                  
+    15.610.985.284      instructions:u            #    0,77  insn per cycle         
+    20.278.117.560      cycles:u                                                    
+       807.725.109      cache-references:u                                          
+        44.353.092      cache-misses:u            #    5,491 % of all cache refs    
+     1.513.076.514      branches:u                                                  
+    15.606.384.392      instructions:u            #    0,77  insn per cycle         
+    20.288.357.359      cycles:u                                                    
+       808.644.916      cache-references:u                                          
+        44.731.545      cache-misses:u            #    5,532 % of all cache refs    
+     1.511.762.160      branches:u                                                  
+    15.605.559.829      instructions:u            #    0,77  insn per cycle         
+    20.368.002.166      cycles:u                                                    
+       807.481.298      cache-references:u                                          
+        46.367.175      cache-misses:u            #    5,742 % of all cache refs    
+     1.511.526.353      branches:u                                                  
+    15.605.562.977      instructions:u            #    0,76  insn per cycle         
+    20.410.378.673      cycles:u                                                    
+       808.628.040      cache-references:u                                          
+        49.718.730      cache-misses:u            #    6,149 % of all cache refs    
+     1.511.527.401      branches:u                                                  
+    15.605.780.634      instructions:u            #    0,76  insn per cycle         
+    20.514.863.325      cycles:u                                                    
+       806.706.347      cache-references:u                                          
+        54.872.219      cache-misses:u            #    6,802 % of all cache refs    
+     1.511.589.578      branches:u                                                  
+timing statistics:
+  total time:    2.633183
+timing statistics:
+  total time:    2.320674
+timing statistics:
+  total time:    2.365676
+timing statistics:
+  total time:    2.315817
+timing statistics:
+  total time:    2.337213
+timing statistics:
+  total time:    2.433509
+timing statistics:
+  total time:    2.333491
+timing statistics:
+  total time:    2.350255
+timing statistics:
+  total time:    2.415956
+timing statistics:
+  total time:    2.499690
