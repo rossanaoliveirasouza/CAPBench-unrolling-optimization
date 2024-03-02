@@ -1,0 +1,81 @@
+Instruções Ciclos Cache_References Cache_Misses
+   <not supported>      instructions:u                                              
+   <not supported>      cycles:u                                                    
+   <not supported>      cache-references:u                                          
+   <not supported>      cache-misses:u                                              
+   <not supported>      branches:u                                                  
+   <not supported>      instructions:u                                              
+   <not supported>      cycles:u                                                    
+   <not supported>      cache-references:u                                          
+   <not supported>      cache-misses:u                                              
+   <not supported>      branches:u                                                  
+   <not supported>      instructions:u                                              
+   <not supported>      cycles:u                                                    
+   <not supported>      cache-references:u                                          
+   <not supported>      cache-misses:u                                              
+   <not supported>      branches:u                                                  
+   <not supported>      instructions:u                                              
+   <not supported>      cycles:u                                                    
+   <not supported>      cache-references:u                                          
+   <not supported>      cache-misses:u                                              
+   <not supported>      branches:u                                                  
+   <not supported>      instructions:u                                              
+   <not supported>      cycles:u                                                    
+   <not supported>      cache-references:u                                          
+   <not supported>      cache-misses:u                                              
+   <not supported>      branches:u                                                  
+   <not supported>      instructions:u                                              
+   <not supported>      cycles:u                                                    
+   <not supported>      cache-references:u                                          
+   <not supported>      cache-misses:u                                              
+   <not supported>      branches:u                                                  
+   <not supported>      instructions:u                                              
+   <not supported>      cycles:u                                                    
+   <not supported>      cache-references:u                                          
+   <not supported>      cache-misses:u                                              
+   <not supported>      branches:u                                                  
+   <not supported>      instructions:u                                              
+   <not supported>      cycles:u                                                    
+   <not supported>      cache-references:u                                          
+   <not supported>      cache-misses:u                                              
+   <not supported>      branches:u                                                  
+   <not supported>      instructions:u                                              
+   <not supported>      cycles:u                                                    
+   <not supported>      cache-references:u                                          
+   <not supported>      cache-misses:u                                              
+   <not supported>      branches:u                                                  
+   <not supported>      instructions:u                                              
+   <not supported>      cycles:u                                                    
+   <not supported>      cache-references:u                                          
+   <not supported>      cache-misses:u                                              
+   <not supported>      branches:u                                                  
+timing statistics:
+  total time:       46.085421
+  corners detected: 18926495
+timing statistics:
+  total time:       46.147200
+  corners detected: 18926495
+timing statistics:
+  total time:       46.091234
+  corners detected: 18926495
+timing statistics:
+  total time:       46.117596
+  corners detected: 18926495
+timing statistics:
+  total time:       46.133201
+  corners detected: 18926495
+timing statistics:
+  total time:       46.277729
+  corners detected: 18926495
+timing statistics:
+  total time:       46.257242
+  corners detected: 18926495
+timing statistics:
+  total time:       46.241715
+  corners detected: 18926495
+timing statistics:
+  total time:       46.228139
+  corners detected: 18926495
+timing statistics:
+  total time:       46.150044
+  corners detected: 18926495
