@@ -11,7 +11,7 @@ export ITERATIONS=10
 # Create results directory.
 mkdir -p $RESULTSDIR
 
-for kernel in fast fn gf is km lu tsp; do
+for kernel in fast fn gf is km lu; do
 	echo "running $kernel"
 	
 	# Weak scaling

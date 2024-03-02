@@ -13,7 +13,7 @@ do
     programa_output_temp_file="./output_gf$i.temp.txt"
 
     # Comando a ser executado, redirecionando a saída para o arquivo temporário do programa
-    command="perf stat -o >(grep 'instructions\|cycles\|cache-references\|cache-misses\|branches' >> $output_file) -B -e instructions:u,cycles:u,cache-references:u,cache-misses:u,branches:u ./gf.intel --nthreads 8 --class large > $programa_output_temp_file 2>&1"
+    command="perf stat -o >(grep 'instructions\|cycles\|cache-references\|cache-misses\|branches' >> $output_file) -B -e instructions:u,cycles:u,cache-references:u,cache-misses:u,branches:u ./gf.intel --nthreads 1 --class large > $programa_output_temp_file 2>&1"
 
     # Executa o comando
     eval $command
