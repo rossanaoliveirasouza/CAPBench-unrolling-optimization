@@ -1,30 +1,27 @@
 #!/bin/bash
 
 # Nome do arquivo de saída Excel
-output_file="./fast.xlsx"
+output_file="./testes.xlsx"
 
 # Cria um arquivo Excel vazio para armazenar os resultados
 echo "Instruções Ciclos Cache_References Cache_Misses" > $output_file
 
 # Loop para executar o comando 10 vezes
-for i in {1..10}
+for i in {1..3}
 do
     # Nome do arquivo de saída temporário do programa
     programa_output_temp_file="./output_fast$i.temp.txt"
 
     # Comando a ser executado, redirecionando a saída para o arquivo temporário do programa
-    command="perf stat -o >(grep 'instructions\|cycles\|cache-references\|cache-misses\|branches' >> $output_file) -B -e instructions:u,cycles:u,cache-references:u,cache-misses:u,branches:u ./fast.intel --nthreads 1 --class large > $programa_output_temp_file 2>&1"
+    command="perf stat -B -e instructions:u,cycles:u,cache-references:u,cache-misses:u ./fast.intel --nthreads 1 --class tiny > $programa_output_temp_file 2>&1"
 
     # Executa o comando
     eval $command
 
-    echo "Execução $i concluída. Resultados temporários adicionados a $output_file"
+    # Adiciona apenas as estatísticas de desempenho ao arquivo Excel
+    cat $programa_output_temp_file | grep 'instructions\|cycles\|cache-references\|cache-misses' >> $output_file
+
+    echo "Execução $i concluída. Resultados adicionados a $output_file"
 done
-
-# Concatena os arquivos temporários de saída em um único arquivo Excel
-cat ./output_fast*.temp.txt >> $output_file
-
-# Remove os arquivos temporários
-rm ./output_fast*.temp.txt
 
 echo "Resultados dos testes foram salvos em $output_file"
