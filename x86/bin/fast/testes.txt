@@ -1,0 +1,16 @@
+# started on Sun Mar  3 00:09:06 2024
+
+
+ Performance counter stats for './fast.intel --nthreads 1 --class small':
+
+   <not supported>      instructions:u                                              
+   <not supported>      cycles:u                                                    
+   <not supported>      cache-references:u                                          
+   <not supported>      cache-misses:u                                              
+
+       2.963480721 seconds time elapsed
+
+       2.951531000 seconds user
+       0.007998000 seconds sys
+
+
