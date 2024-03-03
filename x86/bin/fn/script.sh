@@ -1,30 +1,34 @@
 #!/bin/bash
 
-# Nome do arquivo de saída Excel
-output_file="./fn.xlsx"
+# Nome do arquivo de saída para dados brutos do perf
+raw_data_file="./dados_brutos_fn.txt"
 
-# Cria um arquivo Excel vazio para armazenar os resultados
-echo "Instruções Ciclos Cache_References Cache_Misses" > $output_file
+# Nome do arquivo de saída para a planilha CSV
+output_file="./resultados_fn.csv"
+
+# Cria um arquivo de texto vazio para armazenar os dados brutos do perf
+> $raw_data_file
 
 # Loop para executar o comando 10 vezes
-for i in {1..4}
+for i in {1..20}
 do
-    # Nome do arquivo de saída temporário do programa
-    programa_output_temp_file="./output_fn$i.temp.txt"
+    # Nome do arquivo de saída do programa
+    programa_output_file="./output_fn_$i.txt"
 
-    # Comando a ser executado, redirecionando a saída para o arquivo temporário do programa
-    command="perf stat -o >(grep 'instructions\|cycles\|cache-references\|cache-misses\|branches' >> $output_file) -B -e instructions:u,cycles:u,cache-references:u,cache-misses:u,branches:u ./fn.intel --nthreads 1 --class large > $programa_output_temp_file 2>&1"
+    # Comando a ser executado, redirecionando a saída para o arquivo de dados brutos do perf
+    command="perf stat -o $programa_output_file -B -e instructions:u,cycles:u,cache-references:u,cache-misses:u,branches:u ./fn.intel --nthreads 8 --class standard > /dev/null 2>&1"
 
     # Executa o comando
     eval $command
 
-    echo "Execução $i concluída. Resultados temporários adicionados a $output_file"
+    # Concatena os dados brutos do perf ao arquivo de dados brutos
+    cat $programa_output_file >> $raw_data_file
+
+    echo "Execução $i concluída. Dados brutos adicionados a $raw_data_file"
 done
 
-# Concatena os arquivos temporários de saída em um único arquivo Excel
-cat ./output_fn*.temp.txt >> $output_file
-
-# Remove os arquivos temporários
-rm ./output_fn*.temp.txt
+# Escreve os dados processados em um arquivo CSV
+echo "Instruções;Ciclos;Cache_References;Cache_Misses;Branches;Tempo_Execucao;Instrucoes_por_Ciclo" > $output_file
+awk '/instructions/ {instrucoes=$1} /cycles/ {ciclos=$1} /cache-references/ {cache_refs=$1} /cache-misses/ {cache_misses=$1} /branches/ {branches=$1} /seconds time elapsed/ {tempo_exec=$1; tempo_exec = tempo_exec / 1; instr_por_ciclo = instrucoes / ciclos; print instrucoes ";" ciclos ";" cache_refs ";" cache_misses ";" branches ";" tempo_exec ";" instr_por_ciclo}' $raw_data_file >> $output_file
 
 echo "Resultados dos testes foram salvos em $output_file"

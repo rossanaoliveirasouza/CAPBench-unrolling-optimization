@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Nome do arquivo CSV de saída
-output_file="compilacao_fn.csv"
+output_file="compilacao_is.csv"
 
 # Cria um arquivo CSV vazio para armazenar os tempos de compilação
 echo "Tempo de Compilação (segundos)" > $output_file
@@ -13,7 +13,7 @@ do
     compilation_time_temp_file="compilation_time_$i.temp.txt"
 
     # Comando a ser executado para compilar o programa e medir o tempo de compilação
-    command="perf stat -o >(grep 'time elapsed' | awk '{print \$1}' >> $output_file) -B -- gcc friendly-numbers.c balance.c main.c -Wall -Wextra -Werror  -O3 -fno-unroll-loops -I /home/rosana/Documentos/TCC/testes/CAPBenchmarks-unrolling-optimization/x86/include -o /home/rosana/Documentos/TCC/testes/CAPBenchmarks-unrolling-optimization/x86/bin/fn.intel /home/rosana/Documentos/TCC/testes/CAPBenchmarks-unrolling-optimization/x86/lib/libcapb.a -lm -fopenmp"
+    command="perf stat -o >(grep 'time elapsed' | awk '{print \$1}' >> $output_file) -B -- gcc quicksort.c darray.c bucket-sort.c main.c -Wall -Wextra -Werror -O3 -I /home/rosana/Documentos/TCC/testes/CAPBenchmarks-unrolling-optimization/x86/include -o /home/rosana/Documentos/TCC/testes/CAPBenchmarks-unrolling-optimization/x86/bin/is.intel /home/rosana/Documentos/TCC/testes/CAPBenchmarks-unrolling-optimization/x86/lib/libcapb.a -lm -fopenmp"
 
     # Executa o comando e mede o tempo de compilação
     eval $command
