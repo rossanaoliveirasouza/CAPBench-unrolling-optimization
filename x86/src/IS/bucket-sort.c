@@ -58,14 +58,24 @@ void integer_sort(int *array, int n)
 		
 		/* Distribute numbers into buckets. */
 		#pragma omp master
-		for (i = 0; i < n; i++)
+		for (i = 0; i < n; i += 2)
 		{
-			j = array[i]/range;
+			j = array[i] / range;
 			if (j >= NUM_BUCKETS)
 				j = NUM_BUCKETS - 1;
 
 			darray_append(buckets[j], array[i]);
+
+			if (i + 1 < n)
+			{
+				j = array[i + 1] / range;
+				if (j >= NUM_BUCKETS)
+					j = NUM_BUCKETS - 1;
+
+				darray_append(buckets[j], array[i + 1]);
+			}
 		}
+
 		
 		/* Sort Each bucket. */
 		#pragma omp for schedule(dynamic)

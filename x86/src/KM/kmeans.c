@@ -106,21 +106,56 @@ static void init_mapping() {
 	int i, j;  /* Loop index. */
 
 	/* Initialize mapping. */
-	for (i = 0; i < npoints; i++)
+	for (i = 0; i < npoints; i += 4) {
 		map[i] = -1;
+		map[i + 1] = -1;
+		map[i + 2] = -1;
+		map[i + 3] = -1;
+	}
+	/* Lidar com possíveis índices restantes. */
+	for (; i < npoints; i++) {
+		map[i] = -1;
+	}
 
 	/* Initialize centroids. */
-	for (i = 0; i < ncentroids; i++) {
-		j = randnum()%npoints;
+	for (i = 0; i < ncentroids; i += 4) {
+		int j1 = randnum() % npoints;
+		int j2 = randnum() % npoints;
+		int j3 = randnum() % npoints;
+		int j4 = randnum() % npoints;
+
+		vector_assign(CENTROIDS(i), POINTS(j1));
+		vector_assign(CENTROIDS(i + 1), POINTS(j2));
+		vector_assign(CENTROIDS(i + 2), POINTS(j3));
+		vector_assign(CENTROIDS(i + 3), POINTS(j4));
+
+		map[j1] = i;
+		map[j2] = i + 1;
+		map[j3] = i + 2;
+		map[j4] = i + 3;
+	}
+
+	/* Lidar com possíveis índices restantes. */
+	for (; i < ncentroids; i++) {
+		j = randnum() % npoints;
 		vector_assign(CENTROIDS(i), POINTS(j));
 		map[j] = i;
 	}
 
+
 	/* Map unmapped data points. */
-	for (i = 0; i < npoints; i++) {
-		if (map[i] < 0)
-			map[i] = randnum()%ncentroids;
+	for (i = 0; i < npoints; i += 4) {
+		if (map[i] < 0) map[i] = randnum() % ncentroids;
+		if (map[i + 1] < 0) map[i + 1] = randnum() % ncentroids;
+		if (map[i + 2] < 0) map[i + 2] = randnum() % ncentroids;
+		if (map[i + 3] < 0) map[i + 3] = randnum() % ncentroids;
 	}
+
+	/* Lidar com possíveis índices restantes. */
+	for (; i < npoints; i++) {
+		if (map[i] < 0) map[i] = randnum() % ncentroids;
+	}
+
 }
 
 /* Clusters data. */
