@@ -1,260 +1,260 @@
-# started on Mon Mar  4 19:20:43 2024
+# started on Sat Mar 16 19:14:59 2024
 
 
- Performance counter stats for './fast.intel --nthreads 8 --class huge':
+ Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-            42.921      instructions:u            #    0,32  insn per cycle                                            
-           135.390      cycles:u                                                    
-             1.309      cache-references:u                                          
-               101      cache-misses:u            #    7,716 % of all cache refs    
-            10.668      branches:u                                                  
+   336.290.081.566      instructions:u            #    1,14  insn per cycle                                            
+   295.689.173.500      cycles:u                                                    
+         3.107.499      cache-references:u                                          
+           194.204      cache-misses:u            #    6,250 % of all cache refs    
+    85.589.335.227      branches:u                                                  
 
-       0,000819359 seconds time elapsed
+     114,389256317 seconds time elapsed
 
-# started on Mon Mar  4 19:20:43 2024
+# started on Sat Mar 16 19:16:53 2024
 
 
- Performance counter stats for './fast.intel --nthreads 8 --class huge':
+ Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-            42.920      instructions:u            #    0,32  insn per cycle                                            
-           132.838      cycles:u                                                    
-             1.271      cache-references:u                                          
-                74      cache-misses:u            #    5,822 % of all cache refs    
-            10.667      branches:u                                                  
+   336.290.082.399      instructions:u            #    1,14  insn per cycle                                            
+   295.675.351.511      cycles:u                                                    
+         3.023.151      cache-references:u                                          
+           192.185      cache-misses:u            #    6,357 % of all cache refs    
+    85.589.336.080      branches:u                                                  
 
-       0,000810321 seconds time elapsed
+     114,223890735 seconds time elapsed
 
-# started on Mon Mar  4 19:20:43 2024
+# started on Sat Mar 16 19:18:48 2024
 
 
- Performance counter stats for './fast.intel --nthreads 8 --class huge':
+ Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-            42.920      instructions:u            #    0,32  insn per cycle                                            
-           133.147      cycles:u                                                    
-             1.331      cache-references:u                                          
-                43      cache-misses:u            #    3,231 % of all cache refs    
-            10.667      branches:u                                                  
+   336.290.082.621      instructions:u            #    1,14  insn per cycle                                            
+   295.960.287.100      cycles:u                                                    
+         3.091.457      cache-references:u                                          
+           196.054      cache-misses:u            #    6,342 % of all cache refs    
+    85.589.336.282      branches:u                                                  
 
-       0,000829559 seconds time elapsed
+     114,418415933 seconds time elapsed
 
-# started on Mon Mar  4 19:20:44 2024
+# started on Sat Mar 16 19:20:42 2024
 
 
- Performance counter stats for './fast.intel --nthreads 8 --class huge':
+ Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-            42.920      instructions:u            #    0,32  insn per cycle                                            
-           136.177      cycles:u                                                    
-             1.470      cache-references:u                                          
-                72      cache-misses:u            #    4,898 % of all cache refs    
-            10.667      branches:u                                                  
+   336.290.083.677      instructions:u            #    1,13  insn per cycle                                            
+   297.815.985.001      cycles:u                                                    
+         3.086.490      cache-references:u                                          
+            72.840      cache-misses:u            #    2,360 % of all cache refs    
+    85.589.337.338      branches:u                                                  
 
-       0,000982717 seconds time elapsed
+     115,346569197 seconds time elapsed
 
-# started on Mon Mar  4 19:20:44 2024
+# started on Sat Mar 16 19:22:38 2024
 
 
- Performance counter stats for './fast.intel --nthreads 8 --class huge':
+ Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-            42.921      instructions:u            #    0,32  insn per cycle                                            
-           133.106      cycles:u                                                    
-             1.283      cache-references:u                                          
-                34      cache-misses:u            #    2,650 % of all cache refs    
-            10.668      branches:u                                                  
+   336.290.082.511      instructions:u            #    1,14  insn per cycle                                            
+   295.683.990.250      cycles:u                                                    
+         3.099.124      cache-references:u                                          
+           196.359      cache-misses:u            #    6,336 % of all cache refs    
+    85.589.336.172      branches:u                                                  
 
-       0,000856312 seconds time elapsed
+     114,308577940 seconds time elapsed
 
-# started on Mon Mar  4 19:20:44 2024
+# started on Sat Mar 16 19:24:32 2024
 
 
- Performance counter stats for './fast.intel --nthreads 8 --class huge':
+ Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-            42.920      instructions:u            #    0,33  insn per cycle                                            
-           131.092      cycles:u                                                    
-             1.243      cache-references:u                                          
-                52      cache-misses:u            #    4,183 % of all cache refs    
-            10.667      branches:u                                                  
+   336.290.082.481      instructions:u            #    1,14  insn per cycle                                            
+   295.676.073.466      cycles:u                                                    
+         3.093.943      cache-references:u                                          
+           197.145      cache-misses:u            #    6,372 % of all cache refs    
+    85.589.336.142      branches:u                                                  
 
-       0,000647634 seconds time elapsed
+     114,282192733 seconds time elapsed
 
-# started on Mon Mar  4 19:20:44 2024
+# started on Sat Mar 16 19:26:27 2024
 
 
- Performance counter stats for './fast.intel --nthreads 8 --class huge':
+ Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-            42.920      instructions:u            #    0,33  insn per cycle                                            
-           130.725      cycles:u                                                    
-             1.268      cache-references:u                                          
-                55      cache-misses:u            #    4,338 % of all cache refs    
-            10.667      branches:u                                                  
+   336.290.082.619      instructions:u            #    1,14  insn per cycle                                            
+   295.838.062.478      cycles:u                                                    
+         3.169.421      cache-references:u                                          
+           194.286      cache-misses:u            #    6,130 % of all cache refs    
+    85.589.336.280      branches:u                                                  
 
-       0,000767231 seconds time elapsed
+     114,418681634 seconds time elapsed
 
-# started on Mon Mar  4 19:20:44 2024
+# started on Sat Mar 16 19:28:22 2024
 
 
- Performance counter stats for './fast.intel --nthreads 8 --class huge':
+ Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-            42.920      instructions:u            #    0,33  insn per cycle                                            
-           131.273      cycles:u                                                    
-             1.235      cache-references:u                                          
-                35      cache-misses:u            #    2,834 % of all cache refs    
-            10.667      branches:u                                                  
+   336.290.082.524      instructions:u            #    1,14  insn per cycle                                            
+   295.747.042.016      cycles:u                                                    
+         3.115.801      cache-references:u                                          
+           194.490      cache-misses:u            #    6,242 % of all cache refs    
+    85.589.336.185      branches:u                                                  
 
-       0,001083786 seconds time elapsed
+     114,323412036 seconds time elapsed
 
-# started on Mon Mar  4 19:20:45 2024
+# started on Sat Mar 16 19:30:16 2024
 
 
- Performance counter stats for './fast.intel --nthreads 8 --class huge':
+ Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-            42.920      instructions:u            #    0,32  insn per cycle                                            
-           134.165      cycles:u                                                    
-             1.382      cache-references:u                                          
-                59      cache-misses:u            #    4,269 % of all cache refs    
-            10.667      branches:u                                                  
+   336.290.082.557      instructions:u            #    1,14  insn per cycle                                            
+   295.718.532.184      cycles:u                                                    
+         3.081.970      cache-references:u                                          
+           197.337      cache-misses:u            #    6,403 % of all cache refs    
+    85.589.336.246      branches:u                                                  
 
-       0,000895695 seconds time elapsed
+     114,394247806 seconds time elapsed
 
-# started on Mon Mar  4 19:20:45 2024
+# started on Sat Mar 16 19:32:11 2024
 
 
- Performance counter stats for './fast.intel --nthreads 8 --class huge':
+ Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-            42.920      instructions:u            #    0,33  insn per cycle                                            
-           129.944      cycles:u                                                    
-             1.249      cache-references:u                                          
-                36      cache-misses:u            #    2,882 % of all cache refs    
-            10.667      branches:u                                                  
+   336.290.082.907      instructions:u            #    1,13  insn per cycle                                            
+   296.932.753.266      cycles:u                                                    
+         3.028.320      cache-references:u                                          
+           196.414      cache-misses:u            #    6,486 % of all cache refs    
+    85.589.336.578      branches:u                                                  
 
-       0,001008509 seconds time elapsed
+     114,716631760 seconds time elapsed
 
-# started on Mon Mar  4 19:20:45 2024
+# started on Sat Mar 16 19:34:06 2024
 
 
- Performance counter stats for './fast.intel --nthreads 8 --class huge':
+ Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-            42.920      instructions:u            #    0,33  insn per cycle                                            
-           129.480      cycles:u                                                    
-             1.297      cache-references:u                                          
-                42      cache-misses:u            #    3,238 % of all cache refs    
-            10.667      branches:u                                                  
+   336.290.082.410      instructions:u            #    1,14  insn per cycle                                            
+   295.666.881.620      cycles:u                                                    
+         3.055.842      cache-references:u                                          
+           197.758      cache-misses:u            #    6,471 % of all cache refs    
+    85.589.336.081      branches:u                                                  
 
-       0,000774198 seconds time elapsed
+     114,218405432 seconds time elapsed
 
-# started on Mon Mar  4 19:20:45 2024
+# started on Sat Mar 16 19:36:00 2024
 
 
- Performance counter stats for './fast.intel --nthreads 8 --class huge':
+ Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-            42.920      instructions:u            #    0,32  insn per cycle                                            
-           132.200      cycles:u                                                    
-             1.318      cache-references:u                                          
-                39      cache-misses:u            #    2,959 % of all cache refs    
-            10.667      branches:u                                                  
+   336.290.082.601      instructions:u            #    1,14  insn per cycle                                            
+   295.873.363.340      cycles:u                                                    
+         3.117.697      cache-references:u                                          
+           199.054      cache-misses:u            #    6,385 % of all cache refs    
+    85.589.336.272      branches:u                                                  
 
-       0,000803749 seconds time elapsed
+     114,421633849 seconds time elapsed
 
-# started on Mon Mar  4 19:20:46 2024
+# started on Sat Mar 16 19:37:55 2024
 
 
- Performance counter stats for './fast.intel --nthreads 8 --class huge':
+ Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-            42.920      instructions:u            #    0,33  insn per cycle                                            
-           131.781      cycles:u                                                    
-             1.470      cache-references:u                                          
-                 8      cache-misses:u            #    0,544 % of all cache refs    
-            10.667      branches:u                                                  
+   336.290.082.423      instructions:u            #    1,14  insn per cycle                                            
+   295.668.537.835      cycles:u                                                    
+         3.056.456      cache-references:u                                          
+           197.402      cache-misses:u            #    6,459 % of all cache refs    
+    85.589.336.094      branches:u                                                  
 
-       0,000856747 seconds time elapsed
+     114,233286694 seconds time elapsed
 
-# started on Mon Mar  4 19:20:46 2024
+# started on Sat Mar 16 19:39:49 2024
 
 
- Performance counter stats for './fast.intel --nthreads 8 --class huge':
+ Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-            42.920      instructions:u            #    0,32  insn per cycle                                            
-           135.419      cycles:u                                                    
-             1.351      cache-references:u                                          
-                64      cache-misses:u            #    4,737 % of all cache refs    
-            10.667      branches:u                                                  
+   336.290.082.408      instructions:u            #    1,14  insn per cycle                                            
+   295.710.203.992      cycles:u                                                    
+         3.412.813      cache-references:u                                          
+           250.159      cache-misses:u            #    7,330 % of all cache refs    
+    85.589.336.079      branches:u                                                  
 
-       0,000926603 seconds time elapsed
+     114,218012783 seconds time elapsed
 
-# started on Mon Mar  4 19:20:46 2024
+# started on Sat Mar 16 19:41:44 2024
 
 
- Performance counter stats for './fast.intel --nthreads 8 --class huge':
+ Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-            42.920      instructions:u            #    0,34  insn per cycle                                            
-           127.713      cycles:u                                                    
-             1.252      cache-references:u                                          
-                26      cache-misses:u            #    2,077 % of all cache refs    
-            10.667      branches:u                                                  
+   336.290.083.353      instructions:u            #    1,13  insn per cycle                                            
+   297.847.760.645      cycles:u                                                    
+         3.064.684      cache-references:u                                          
+           204.213      cache-misses:u            #    6,663 % of all cache refs    
+    85.589.337.062      branches:u                                                  
 
-       0,000933362 seconds time elapsed
+     115,159563819 seconds time elapsed
 
-# started on Mon Mar  4 19:20:46 2024
+# started on Sat Mar 16 19:43:39 2024
 
 
- Performance counter stats for './fast.intel --nthreads 8 --class huge':
+ Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-            42.920      instructions:u            #    0,32  insn per cycle                                            
-           135.352      cycles:u                                                    
-             1.311      cache-references:u                                          
-                50      cache-misses:u            #    3,814 % of all cache refs    
-            10.667      branches:u                                                  
+   336.290.082.472      instructions:u            #    1,14  insn per cycle                                            
+   295.678.820.011      cycles:u                                                    
+         3.061.321      cache-references:u                                          
+           198.275      cache-misses:u            #    6,477 % of all cache refs    
+    85.589.336.133      branches:u                                                  
 
-       0,000838861 seconds time elapsed
+     114,266502396 seconds time elapsed
 
-# started on Mon Mar  4 19:20:47 2024
+# started on Sat Mar 16 19:45:34 2024
 
 
- Performance counter stats for './fast.intel --nthreads 8 --class huge':
+ Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-            42.920      instructions:u            #    0,33  insn per cycle                                            
-           128.664      cycles:u                                                    
-             1.278      cache-references:u                                          
-                53      cache-misses:u            #    4,147 % of all cache refs    
-            10.667      branches:u                                                  
+   336.290.082.563      instructions:u            #    1,14  insn per cycle                                            
+   295.707.116.622      cycles:u                                                    
+         3.189.508      cache-references:u                                          
+           206.442      cache-misses:u            #    6,473 % of all cache refs    
+    85.589.336.224      branches:u                                                  
 
-       0,000838508 seconds time elapsed
+     114,359938383 seconds time elapsed
 
-# started on Mon Mar  4 19:20:47 2024
+# started on Sat Mar 16 19:47:28 2024
 
 
- Performance counter stats for './fast.intel --nthreads 8 --class huge':
+ Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-            42.921      instructions:u            #    0,32  insn per cycle                                            
-           134.635      cycles:u                                                    
-             1.384      cache-references:u                                          
-                55      cache-misses:u            #    3,974 % of all cache refs    
-            10.668      branches:u                                                  
+   336.290.082.546      instructions:u            #    1,14  insn per cycle                                            
+   295.680.325.301      cycles:u                                                    
+         3.093.086      cache-references:u                                          
+           198.880      cache-misses:u            #    6,430 % of all cache refs    
+    85.589.336.207      branches:u                                                  
 
-       0,000886091 seconds time elapsed
+     114,347453188 seconds time elapsed
 
-# started on Mon Mar  4 19:20:47 2024
+# started on Sat Mar 16 19:49:23 2024
 
 
- Performance counter stats for './fast.intel --nthreads 8 --class huge':
+ Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-            42.920      instructions:u            #    0,32  insn per cycle                                            
-           132.881      cycles:u                                                    
-             1.363      cache-references:u                                          
-                54      cache-misses:u            #    3,962 % of all cache refs    
-            10.667      branches:u                                                  
+   336.290.082.591      instructions:u            #    1,14  insn per cycle                                            
+   295.687.062.992      cycles:u                                                    
+         3.085.479      cache-references:u                                          
+           203.813      cache-misses:u            #    6,606 % of all cache refs    
+    85.589.336.262      branches:u                                                  
 
-       0,000989252 seconds time elapsed
+     114,398003445 seconds time elapsed
 
-# started on Mon Mar  4 19:20:47 2024
+# started on Sat Mar 16 19:51:17 2024
 
 
- Performance counter stats for './fast.intel --nthreads 8 --class huge':
+ Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-            42.919      instructions:u            #    0,33  insn per cycle                                            
-           129.842      cycles:u                                                    
-             1.243      cache-references:u                                          
-                35      cache-misses:u            #    2,816 % of all cache refs    
-            10.666      branches:u                                                  
+   336.290.083.739      instructions:u            #    1,13  insn per cycle                                            
+   297.791.780.224      cycles:u                                                    
+         3.131.997      cache-references:u                                          
+            51.852      cache-misses:u            #    1,656 % of all cache refs    
+    85.589.337.410      branches:u                                                  
 
-       0,000755528 seconds time elapsed
+     115,429296342 seconds time elapsed
 
