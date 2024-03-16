@@ -1,0 +1,13 @@
+# started on Mon Mar  4 19:21:01 2024
+
+
+ Performance counter stats for './km.intel --nthreads 8 --class huge':
+
+            42.989      instructions:u            #    0,33  insn per cycle                                            
+           128.807      cycles:u                                                    
+             1.257      cache-references:u                                          
+                37      cache-misses:u            #    2,944 % of all cache refs    
+            10.656      branches:u                                                  
+
+       0,000763452 seconds time elapsed
+

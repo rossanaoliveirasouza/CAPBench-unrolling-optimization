@@ -1,0 +1,260 @@
+# started on Mon Mar  4 19:21:06 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 8 --class huge':
+
+            42.978      instructions:u            #    0,33  insn per cycle                                            
+           130.322      cycles:u                                                    
+             1.246      cache-references:u                                          
+                37      cache-misses:u            #    2,970 % of all cache refs    
+            10.686      branches:u                                                  
+
+       0,000729658 seconds time elapsed
+
+# started on Mon Mar  4 19:21:06 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 8 --class huge':
+
+            42.979      instructions:u            #    0,32  insn per cycle                                            
+           134.546      cycles:u                                                    
+             1.324      cache-references:u                                          
+                41      cache-misses:u            #    3,097 % of all cache refs    
+            10.687      branches:u                                                  
+
+       0,000774221 seconds time elapsed
+
+# started on Mon Mar  4 19:21:06 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 8 --class huge':
+
+            42.979      instructions:u            #    0,34  insn per cycle                                            
+           125.853      cycles:u                                                    
+             1.300      cache-references:u                                          
+                15      cache-misses:u            #    1,154 % of all cache refs    
+            10.687      branches:u                                                  
+
+       0,000850552 seconds time elapsed
+
+# started on Mon Mar  4 19:21:07 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 8 --class huge':
+
+            42.979      instructions:u            #    0,31  insn per cycle                                            
+           137.346      cycles:u                                                    
+             1.356      cache-references:u                                          
+                60      cache-misses:u            #    4,425 % of all cache refs    
+            10.687      branches:u                                                  
+
+       0,000911112 seconds time elapsed
+
+# started on Mon Mar  4 19:21:07 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 8 --class huge':
+
+            42.979      instructions:u            #    0,32  insn per cycle                                            
+           132.474      cycles:u                                                    
+             1.370      cache-references:u                                          
+                42      cache-misses:u            #    3,066 % of all cache refs    
+            10.687      branches:u                                                  
+
+       0,001022938 seconds time elapsed
+
+# started on Mon Mar  4 19:21:07 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 8 --class huge':
+
+            42.979      instructions:u            #    0,32  insn per cycle                                            
+           136.270      cycles:u                                                    
+             1.396      cache-references:u                                          
+                41      cache-misses:u            #    2,937 % of all cache refs    
+            10.687      branches:u                                                  
+
+       0,000752559 seconds time elapsed
+
+# started on Mon Mar  4 19:21:07 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 8 --class huge':
+
+            42.978      instructions:u            #    0,33  insn per cycle                                            
+           129.781      cycles:u                                                    
+             1.366      cache-references:u                                          
+                17      cache-misses:u            #    1,245 % of all cache refs    
+            10.686      branches:u                                                  
+
+       0,000636933 seconds time elapsed
+
+# started on Mon Mar  4 19:21:08 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 8 --class huge':
+
+            42.979      instructions:u            #    0,33  insn per cycle                                            
+           130.944      cycles:u                                                    
+             1.257      cache-references:u                                          
+                22      cache-misses:u            #    1,750 % of all cache refs    
+            10.687      branches:u                                                  
+
+       0,000872081 seconds time elapsed
+
+# started on Mon Mar  4 19:21:08 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 8 --class huge':
+
+            42.980      instructions:u            #    0,33  insn per cycle                                            
+           130.959      cycles:u                                                    
+             1.369      cache-references:u                                          
+                12      cache-misses:u            #    0,877 % of all cache refs    
+            10.688      branches:u                                                  
+
+       0,000789212 seconds time elapsed
+
+# started on Mon Mar  4 19:21:08 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 8 --class huge':
+
+            42.979      instructions:u            #    0,33  insn per cycle                                            
+           129.856      cycles:u                                                    
+             1.318      cache-references:u                                          
+                37      cache-misses:u            #    2,807 % of all cache refs    
+            10.687      branches:u                                                  
+
+       0,000784442 seconds time elapsed
+
+# started on Mon Mar  4 19:21:08 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 8 --class huge':
+
+            42.979      instructions:u            #    0,32  insn per cycle                                            
+           132.943      cycles:u                                                    
+             1.377      cache-references:u                                          
+                18      cache-misses:u            #    1,307 % of all cache refs    
+            10.687      branches:u                                                  
+
+       0,000822087 seconds time elapsed
+
+# started on Mon Mar  4 19:21:08 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 8 --class huge':
+
+            42.979      instructions:u            #    0,32  insn per cycle                                            
+           133.458      cycles:u                                                    
+             1.383      cache-references:u                                          
+                53      cache-misses:u            #    3,832 % of all cache refs    
+            10.687      branches:u                                                  
+
+       0,000799456 seconds time elapsed
+
+# started on Mon Mar  4 19:21:09 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 8 --class huge':
+
+            42.979      instructions:u            #    0,32  insn per cycle                                            
+           133.430      cycles:u                                                    
+             1.396      cache-references:u                                          
+                54      cache-misses:u            #    3,868 % of all cache refs    
+            10.687      branches:u                                                  
+
+       0,000900375 seconds time elapsed
+
+# started on Mon Mar  4 19:21:09 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 8 --class huge':
+
+            42.979      instructions:u            #    0,32  insn per cycle                                            
+           134.831      cycles:u                                                    
+             1.441      cache-references:u                                          
+                46      cache-misses:u            #    3,192 % of all cache refs    
+            10.687      branches:u                                                  
+
+       0,000886876 seconds time elapsed
+
+# started on Mon Mar  4 19:21:09 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 8 --class huge':
+
+            42.979      instructions:u            #    0,32  insn per cycle                                            
+           134.127      cycles:u                                                    
+             1.445      cache-references:u                                          
+                42      cache-misses:u            #    2,907 % of all cache refs    
+            10.687      branches:u                                                  
+
+       0,000863261 seconds time elapsed
+
+# started on Mon Mar  4 19:21:09 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 8 --class huge':
+
+            42.979      instructions:u            #    0,33  insn per cycle                                            
+           128.562      cycles:u                                                    
+             1.321      cache-references:u                                          
+                49      cache-misses:u            #    3,709 % of all cache refs    
+            10.687      branches:u                                                  
+
+       0,000775377 seconds time elapsed
+
+# started on Mon Mar  4 19:21:10 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 8 --class huge':
+
+            42.979      instructions:u            #    0,33  insn per cycle                                            
+           132.085      cycles:u                                                    
+             1.295      cache-references:u                                          
+                25      cache-misses:u            #    1,931 % of all cache refs    
+            10.687      branches:u                                                  
+
+       0,000964769 seconds time elapsed
+
+# started on Mon Mar  4 19:21:10 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 8 --class huge':
+
+            42.979      instructions:u            #    0,32  insn per cycle                                            
+           132.850      cycles:u                                                    
+             1.367      cache-references:u                                          
+                24      cache-misses:u            #    1,756 % of all cache refs    
+            10.687      branches:u                                                  
+
+       0,000968829 seconds time elapsed
+
+# started on Mon Mar  4 19:21:10 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 8 --class huge':
+
+            42.979      instructions:u            #    0,33  insn per cycle                                            
+           131.569      cycles:u                                                    
+             1.271      cache-references:u                                          
+                61      cache-misses:u            #    4,799 % of all cache refs    
+            10.687      branches:u                                                  
+
+       0,000874809 seconds time elapsed
+
+# started on Mon Mar  4 19:21:10 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 8 --class huge':
+
+            42.979      instructions:u            #    0,32  insn per cycle                                            
+           133.777      cycles:u                                                    
+             1.371      cache-references:u                                          
+                50      cache-misses:u            #    3,647 % of all cache refs    
+            10.687      branches:u                                                  
+
+       0,000914456 seconds time elapsed
+
