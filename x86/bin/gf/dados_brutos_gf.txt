@@ -1,260 +1,481 @@
-# started on Mon Mar  4 19:20:52 2024
+# started on Sun Mar 17 08:07:06 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.668      instructions:u            #    0,33  insn per cycle                                            
-           130.195      cycles:u                                                    
-             1.369      cache-references:u                                          
-                52      cache-misses:u            #    3,798 % of all cache refs    
-            10.590      branches:u                                                  
+ 3.310.672.873.039      instructions:u            #    2,10  insn per cycle                                            
+ 1.580.264.391.989      cycles:u                                                    
+    51.868.938.367      cache-references:u                                          
+         1.114.702      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.634.824      branches:u                                                  
 
-       0,000826601 seconds time elapsed
+    1092,218162620 seconds time elapsed
 
-# started on Mon Mar  4 19:20:52 2024
+# started on Sun Mar 17 08:24:09 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.668      instructions:u            #    0,32  insn per cycle                                            
-           131.794      cycles:u                                                    
-             1.318      cache-references:u                                          
-                80      cache-misses:u            #    6,070 % of all cache refs    
-            10.590      branches:u                                                  
+ 3.310.672.868.710      instructions:u            #    2,11  insn per cycle                                            
+ 1.569.233.454.025      cycles:u                                                    
+    51.872.762.502      cache-references:u                                          
+         1.020.111      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.630.485      branches:u                                                  
 
-       0,000820245 seconds time elapsed
+    1090,790309572 seconds time elapsed
 
-# started on Mon Mar  4 19:20:53 2024
+# started on Sun Mar 17 08:25:19 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.667      instructions:u            #    0,33  insn per cycle                                            
-           127.542      cycles:u                                                    
-             1.384      cache-references:u                                          
-                21      cache-misses:u            #    1,517 % of all cache refs    
-            10.589      branches:u                                                  
+ 3.310.672.874.258      instructions:u            #    2,09  insn per cycle                                            
+ 1.582.199.688.507      cycles:u                                                    
+    51.877.941.337      cache-references:u                                          
+         1.105.234      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.636.015      branches:u                                                  
 
-       0,000859935 seconds time elapsed
+    1093,918229923 seconds time elapsed
 
-# started on Mon Mar  4 19:20:53 2024
+# started on Sun Mar 17 08:42:20 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.668      instructions:u            #    0,32  insn per cycle                                            
-           132.462      cycles:u                                                    
-             1.323      cache-references:u                                          
-                67      cache-misses:u            #    5,064 % of all cache refs    
-            10.590      branches:u                                                  
+ 3.310.672.872.603      instructions:u            #    2,09  insn per cycle                                            
+ 1.580.389.965.920      cycles:u                                                    
+    51.872.568.622      cache-references:u                                          
+         1.061.959      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.634.360      branches:u                                                  
 
-       0,001231589 seconds time elapsed
+    1107,958789077 seconds time elapsed
 
-# started on Mon Mar  4 19:20:53 2024
+# started on Sun Mar 17 08:43:33 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.668      instructions:u            #    0,32  insn per cycle                                            
-           132.579      cycles:u                                                    
-             1.284      cache-references:u                                          
-                48      cache-misses:u            #    3,738 % of all cache refs    
-            10.590      branches:u                                                  
+ 3.310.672.869.563      instructions:u            #    2,11  insn per cycle                                            
+ 1.568.815.204.598      cycles:u                                                    
+    51.882.938.695      cache-references:u                                          
+         1.083.169      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.631.310      branches:u                                                  
 
-       0,000934622 seconds time elapsed
+    1107,454845361 seconds time elapsed
 
-# started on Mon Mar  4 19:20:53 2024
+# started on Sun Mar 17 09:00:48 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.668      instructions:u            #    0,32  insn per cycle                                            
-           132.185      cycles:u                                                    
-             1.338      cache-references:u                                          
-                34      cache-misses:u            #    2,541 % of all cache refs    
-            10.590      branches:u                                                  
+ 3.310.672.908.160      instructions:u            #    2,03  insn per cycle                                            
+ 1.632.476.721.466      cycles:u                                                    
+    51.874.228.904      cache-references:u                                          
+         1.064.180      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.669.915      branches:u                                                  
 
-       0,000696688 seconds time elapsed
+    1127,319069507 seconds time elapsed
 
-# started on Mon Mar  4 19:20:54 2024
+# started on Sun Mar 17 09:02:01 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.668      instructions:u            #    0,33  insn per cycle                                            
-           130.865      cycles:u                                                    
-             1.323      cache-references:u                                          
-                27      cache-misses:u            #    2,041 % of all cache refs    
-            10.590      branches:u                                                  
+ 3.310.672.878.809      instructions:u            #    2,08  insn per cycle                                            
+ 1.594.515.108.642      cycles:u                                                    
+    51.877.796.116      cache-references:u                                          
+         1.084.062      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.640.592      branches:u                                                  
 
-       0,000872990 seconds time elapsed
+    1121,605137824 seconds time elapsed
 
-# started on Mon Mar  4 19:20:54 2024
+# started on Sun Mar 17 09:19:36 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.668      instructions:u            #    0,32  insn per cycle                                            
-           135.270      cycles:u                                                    
-             1.360      cache-references:u                                          
-                60      cache-misses:u            #    4,412 % of all cache refs    
-            10.590      branches:u                                                  
+ 3.310.672.868.503      instructions:u            #    2,11  insn per cycle                                            
+ 1.568.527.424.907      cycles:u                                                    
+    51.875.351.405      cache-references:u                                          
+         1.050.904      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.630.254      branches:u                                                  
 
-       0,000947682 seconds time elapsed
+    1104,083089839 seconds time elapsed
 
-# started on Mon Mar  4 19:20:54 2024
+# started on Sun Mar 17 09:20:42 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.668      instructions:u            #    0,32  insn per cycle                                            
-           131.491      cycles:u                                                    
-             1.401      cache-references:u                                          
-                 3      cache-misses:u            #    0,214 % of all cache refs    
-            10.590      branches:u                                                  
+ 3.310.672.869.898      instructions:u            #    2,11  insn per cycle                                            
+ 1.570.768.553.359      cycles:u                                                    
+    51.871.478.781      cache-references:u                                          
+         1.086.734      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.631.645      branches:u                                                  
 
-       0,000730027 seconds time elapsed
+    1090,821948769 seconds time elapsed
 
-# started on Mon Mar  4 19:20:54 2024
+# started on Sun Mar 17 09:38:00 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.668      instructions:u            #    0,33  insn per cycle                                            
-           131.004      cycles:u                                                    
-             1.311      cache-references:u                                          
-                32      cache-misses:u            #    2,441 % of all cache refs    
-            10.590      branches:u                                                  
+ 3.310.672.877.385      instructions:u            #    2,08  insn per cycle                                            
+ 1.590.379.507.297      cycles:u                                                    
+    51.875.911.175      cache-references:u                                          
+         1.051.641      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.639.162      branches:u                                                  
 
-       0,001331806 seconds time elapsed
+    1114,903053791 seconds time elapsed
 
-# started on Mon Mar  4 19:20:54 2024
+# started on Sun Mar 17 09:38:53 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.668      instructions:u            #    0,32  insn per cycle                                            
-           135.084      cycles:u                                                    
-             1.305      cache-references:u                                          
-                67      cache-misses:u            #    5,134 % of all cache refs    
-            10.590      branches:u                                                  
+ 3.310.672.874.754      instructions:u            #    2,09  insn per cycle                                            
+ 1.582.739.080.821      cycles:u                                                    
+    51.876.674.723      cache-references:u                                          
+         1.109.200      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.636.529      branches:u                                                  
 
-       0,000686075 seconds time elapsed
+    1109,225212546 seconds time elapsed
 
-# started on Mon Mar  4 19:20:55 2024
+# started on Sun Mar 17 09:56:35 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.667      instructions:u            #    0,33  insn per cycle                                            
-           128.719      cycles:u                                                    
-             1.307      cache-references:u                                          
-                40      cache-misses:u            #    3,060 % of all cache refs    
-            10.589      branches:u                                                  
+ 3.310.672.868.063      instructions:u            #    2,11  insn per cycle                                            
+ 1.568.120.005.233      cycles:u                                                    
+    51.875.109.610      cache-references:u                                          
+         1.045.827      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.629.822      branches:u                                                  
 
-       0,000763328 seconds time elapsed
+    1085,817044397 seconds time elapsed
 
-# started on Mon Mar  4 19:20:55 2024
+# started on Sun Mar 17 09:57:23 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.667      instructions:u            #    0,32  insn per cycle                                            
-           133.731      cycles:u                                                    
-             1.393      cache-references:u                                          
-                38      cache-misses:u            #    2,728 % of all cache refs    
-            10.589      branches:u                                                  
+ 3.310.672.871.847      instructions:u            #    2,10  insn per cycle                                            
+ 1.574.432.523.048      cycles:u                                                    
+    51.878.649.859      cache-references:u                                          
+         1.087.455      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.633.594      branches:u                                                  
 
-       0,000811575 seconds time elapsed
+    1114,492281960 seconds time elapsed
 
-# started on Mon Mar  4 19:20:55 2024
+# started on Sun Mar 17 10:14:41 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.668      instructions:u            #    0,33  insn per cycle                                            
-           131.138      cycles:u                                                    
-             1.331      cache-references:u                                          
-                21      cache-misses:u            #    1,578 % of all cache refs    
-            10.590      branches:u                                                  
+ 3.310.672.878.908      instructions:u            #    2,08  insn per cycle                                            
+ 1.594.173.089.102      cycles:u                                                    
+    51.872.504.708      cache-references:u                                          
+         1.037.791      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.640.665      branches:u                                                  
 
-       0,000881232 seconds time elapsed
+    1094,542599285 seconds time elapsed
 
-# started on Mon Mar  4 19:20:55 2024
+# started on Sun Mar 17 10:15:58 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.668      instructions:u            #    0,32  insn per cycle                                            
-           133.233      cycles:u                                                    
-             1.347      cache-references:u                                          
-                64      cache-misses:u            #    4,751 % of all cache refs    
-            10.590      branches:u                                                  
+ 3.310.672.873.387      instructions:u            #    2,10  insn per cycle                                            
+ 1.579.419.337.657      cycles:u                                                    
+    51.865.585.162      cache-references:u                                          
+         1.068.044      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.635.144      branches:u                                                  
 
-       0,000830278 seconds time elapsed
+    1111,844889394 seconds time elapsed
 
-# started on Mon Mar  4 19:20:55 2024
+# started on Sun Mar 17 10:32:56 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.668      instructions:u            #    0,32  insn per cycle                                            
-           133.761      cycles:u                                                    
-             1.377      cache-references:u                                          
-                22      cache-misses:u            #    1,598 % of all cache refs    
-            10.590      branches:u                                                  
+ 3.310.672.873.531      instructions:u            #    2,09  insn per cycle                                            
+ 1.580.545.370.551      cycles:u                                                    
+    51.875.229.027      cache-references:u                                          
+         1.050.028      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.635.278      branches:u                                                  
 
-       0,000796122 seconds time elapsed
+    1108,783261768 seconds time elapsed
 
-# started on Mon Mar  4 19:20:56 2024
+# started on Sun Mar 17 10:34:30 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.668      instructions:u            #    0,33  insn per cycle                                            
-           128.958      cycles:u                                                    
-             1.329      cache-references:u                                          
-                30      cache-misses:u            #    2,257 % of all cache refs    
-            10.590      branches:u                                                  
+ 3.310.672.869.258      instructions:u            #    2,11  insn per cycle                                            
+ 1.569.419.946.672      cycles:u                                                    
+    51.876.079.507      cache-references:u                                          
+         1.055.063      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.631.033      branches:u                                                  
 
-       0,000634618 seconds time elapsed
+    1110,729469691 seconds time elapsed
 
-# started on Mon Mar  4 19:20:56 2024
+# started on Sun Mar 17 10:51:25 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.668      instructions:u            #    0,33  insn per cycle                                            
-           128.297      cycles:u                                                    
-             1.324      cache-references:u                                          
-                19      cache-misses:u            #    1,435 % of all cache refs    
-            10.590      branches:u                                                  
+ 3.310.672.869.529      instructions:u            #    2,11  insn per cycle                                            
+ 1.571.196.589.572      cycles:u                                                    
+    51.866.141.629      cache-references:u                                          
+         1.066.517      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.631.326      branches:u                                                  
 
-       0,000749341 seconds time elapsed
+    1105,633820247 seconds time elapsed
 
-# started on Mon Mar  4 19:20:56 2024
+# started on Sun Mar 17 10:53:00 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.667      instructions:u            #    0,33  insn per cycle                                            
-           130.593      cycles:u                                                    
-             1.313      cache-references:u                                          
-                38      cache-misses:u            #    2,894 % of all cache refs    
-            10.589      branches:u                                                  
+ 3.310.672.874.200      instructions:u            #    2,09  insn per cycle                                            
+ 1.582.947.466.023      cycles:u                                                    
+    51.867.385.477      cache-references:u                                          
+         1.090.314      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.635.997      branches:u                                                  
 
-       0,001208360 seconds time elapsed
+    1094,990939630 seconds time elapsed
 
-# started on Mon Mar  4 19:20:56 2024
+# started on Sun Mar 17 11:09:51 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.668      instructions:u            #    0,33  insn per cycle                                            
-           130.442      cycles:u                                                    
-             1.344      cache-references:u                                          
-                36      cache-misses:u            #    2,679 % of all cache refs    
-            10.590      branches:u                                                  
+ 3.310.672.873.213      instructions:u            #    2,09  insn per cycle                                            
+ 1.580.903.128.798      cycles:u                                                    
+    51.881.098.906      cache-references:u                                          
+         1.059.599      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.634.972      branches:u                                                  
 
-       0,001351310 seconds time elapsed
+    1095,798712292 seconds time elapsed
+
+# started on Sun Mar 17 11:11:16 2024
+
+
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
+
+ 3.310.672.869.178      instructions:u            #    2,11  insn per cycle                                            
+ 1.569.215.970.836      cycles:u                                                    
+    51.874.707.126      cache-references:u                                          
+         1.092.045      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.630.935      branches:u                                                  
+
+    1112,269421013 seconds time elapsed
+
+# started on Sun Mar 17 11:28:07 2024
+
+
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
+
+ 3.310.672.869.287      instructions:u            #    2,11  insn per cycle                                            
+ 1.569.597.394.615      cycles:u                                                    
+    51.876.206.849      cache-references:u                                          
+         1.065.971      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.631.044      branches:u                                                  
+
+    1098,348511331 seconds time elapsed
+
+# started on Sun Mar 17 11:29:48 2024
+
+
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
+
+ 3.310.672.874.655      instructions:u            #    2,09  insn per cycle                                            
+ 1.584.825.876.051      cycles:u                                                    
+    51.874.196.913      cache-references:u                                          
+         1.095.074      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.636.402      branches:u                                                  
+
+    1094,789962712 seconds time elapsed
+
+# started on Sun Mar 17 11:46:25 2024
+
+
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
+
+ 3.310.672.872.585      instructions:u            #    2,11  insn per cycle                                            
+ 1.570.992.873.949      cycles:u                                                    
+    51.878.619.659      cache-references:u                                          
+         1.101.809      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.634.380      branches:u                                                  
+
+    1113,665998293 seconds time elapsed
+
+# started on Sun Mar 17 11:48:03 2024
+
+
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
+
+ 3.310.672.866.486      instructions:u            #    2,11  insn per cycle                                            
+ 1.566.217.945.907      cycles:u                                                    
+    51.877.156.409      cache-references:u                                          
+         1.116.416      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.628.281      branches:u                                                  
+
+    1106,358086376 seconds time elapsed
+
+# started on Sun Mar 17 12:04:59 2024
+
+
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
+
+ 3.310.672.871.640      instructions:u            #    2,11  insn per cycle                                            
+ 1.568.947.043.777      cycles:u                                                    
+    51.868.000.192      cache-references:u                                          
+         1.091.715      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.633.387      branches:u                                                  
+
+    1102,527249105 seconds time elapsed
+
+# started on Sun Mar 17 12:06:30 2024
+
+
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
+
+ 3.310.672.867.840      instructions:u            #    2,11  insn per cycle                                            
+ 1.568.142.664.307      cycles:u                                                    
+    51.880.188.772      cache-references:u                                          
+         1.111.870      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.629.581      branches:u                                                  
+
+    1109,703207163 seconds time elapsed
+
+# started on Sun Mar 17 12:23:22 2024
+
+
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
+
+ 3.310.672.871.962      instructions:u            #    2,11  insn per cycle                                            
+ 1.569.209.222.611      cycles:u                                                    
+    51.869.822.959      cache-references:u                                          
+         1.163.601      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.633.741      branches:u                                                  
+
+    1105,173737902 seconds time elapsed
+
+# started on Sun Mar 17 12:25:00 2024
+
+
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
+
+ 3.310.672.872.483      instructions:u            #    2,09  insn per cycle                                            
+ 1.582.193.228.847      cycles:u                                                    
+    51.870.585.824      cache-references:u                                          
+         1.085.250      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.634.230      branches:u                                                  
+
+    1112,588631168 seconds time elapsed
+
+# started on Sun Mar 17 12:41:47 2024
+
+
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
+
+ 3.310.672.871.139      instructions:u            #    2,11  insn per cycle                                            
+ 1.571.269.729.616      cycles:u                                                    
+    51.877.825.574      cache-references:u                                          
+         1.080.301      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.632.896      branches:u                                                  
+
+    1096,458422889 seconds time elapsed
+
+# started on Sun Mar 17 12:43:32 2024
+
+
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
+
+ 3.310.672.873.268      instructions:u            #    2,09  insn per cycle                                            
+ 1.583.362.657.707      cycles:u                                                    
+    51.873.050.934      cache-references:u                                          
+         1.099.556      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.635.009      branches:u                                                  
+
+    1113,390502270 seconds time elapsed
+
+# started on Sun Mar 17 13:00:04 2024
+
+
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
+
+ 3.310.672.900.463      instructions:u            #    2,01  insn per cycle                                            
+ 1.646.279.316.798      cycles:u                                                    
+    51.876.358.018      cache-references:u                                          
+         1.039.120      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.662.198      branches:u                                                  
+
+    1150,287321171 seconds time elapsed
+
+# started on Sun Mar 17 13:02:06 2024
+
+
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
+
+ 3.310.672.871.382      instructions:u            #    2,10  insn per cycle                                            
+ 1.579.133.386.565      cycles:u                                                    
+    51.864.836.876      cache-references:u                                          
+         1.094.893      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.633.139      branches:u                                                  
+
+    1093,523804022 seconds time elapsed
+
+# started on Sun Mar 17 13:19:14 2024
+
+
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
+
+ 3.310.672.875.179      instructions:u            #    2,09  insn per cycle                                            
+ 1.581.060.664.139      cycles:u                                                    
+    51.871.869.505      cache-references:u                                          
+         1.114.734      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.636.926      branches:u                                                  
+
+    1088,607654343 seconds time elapsed
+
+# started on Sun Mar 17 13:37:23 2024
+
+
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
+
+ 3.310.672.868.858      instructions:u            #    2,09  insn per cycle                                            
+ 1.580.472.878.994      cycles:u                                                    
+    51.868.428.117      cache-references:u                                          
+         1.076.643      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.630.599      branches:u                                                  
+
+    1111,366690549 seconds time elapsed
+
+# started on Sun Mar 17 13:55:55 2024
+
+
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
+
+ 3.310.672.863.629      instructions:u            #    2,11  insn per cycle                                            
+ 1.567.874.859.693      cycles:u                                                    
+    51.872.758.404      cache-references:u                                          
+         1.073.724      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.625.444      branches:u                                                  
+
+    1106,847047162 seconds time elapsed
+
+# started on Sun Mar 17 14:14:22 2024
+
+
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
+
+ 3.310.672.864.055      instructions:u            #    2,11  insn per cycle                                            
+ 1.568.711.970.768      cycles:u                                                    
+    51.878.749.177      cache-references:u                                          
+         1.080.357      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.625.822      branches:u                                                  
+
+    1110,454328063 seconds time elapsed
 

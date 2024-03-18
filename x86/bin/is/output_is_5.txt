@@ -1,13 +1,13 @@
-# started on Mon Mar  4 19:20:58 2024
+# started on Sun Mar 17 14:34:38 2024
 
 
- Performance counter stats for './is.intel --nthreads 8 --class huge':
+ Performance counter stats for './is.intel --nthreads 1 --class huge':
 
-            43.248      instructions:u            #    0,33  insn per cycle                                            
-           132.070      cycles:u                                                    
-             1.321      cache-references:u                                          
-                29      cache-misses:u            #    2,195 % of all cache refs    
-            10.762      branches:u                                                  
+    54.392.552.649      instructions:u            #    0,82  insn per cycle                                            
+    66.065.540.893      cycles:u                                                    
+       402.835.324      cache-references:u                                          
+        19.294.552      cache-misses:u            #    4,790 % of all cache refs    
+     8.544.454.298      branches:u                                                  
 
-       0,000833818 seconds time elapsed
+      26,273172731 seconds time elapsed
 

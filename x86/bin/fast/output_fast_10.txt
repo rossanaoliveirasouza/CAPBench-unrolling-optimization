@@ -1,13 +1,13 @@
-# started on Sat Mar 16 19:32:11 2024
+# started on Sat Mar 16 20:43:29 2024
 
 
  Performance counter stats for './fast.intel --nthreads 1 --class huge':
 
-   336.290.082.907      instructions:u            #    1,13  insn per cycle                                            
-   296.932.753.266      cycles:u                                                    
-         3.028.320      cache-references:u                                          
-           196.414      cache-misses:u            #    6,486 % of all cache refs    
-    85.589.336.578      branches:u                                                  
+   336.290.082.988      instructions:u            #    1,14  insn per cycle                                            
+   295.721.727.072      cycles:u                                                    
+         2.792.710      cache-references:u                                          
+           202.961      cache-misses:u            #    7,268 % of all cache refs    
+    85.589.336.649      branches:u                                                  
 
-     114,716631760 seconds time elapsed
+     114,773733003 seconds time elapsed
 

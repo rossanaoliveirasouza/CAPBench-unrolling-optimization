@@ -1,260 +1,260 @@
-# started on Mon Mar  4 19:21:01 2024
+# started on Sun Mar 17 14:41:40 2024
 
 
- Performance counter stats for './km.intel --nthreads 8 --class huge':
+ Performance counter stats for './km.intel --nthreads 1 --class huge':
 
-            42.989      instructions:u            #    0,33  insn per cycle                                            
-           130.862      cycles:u                                                    
-             1.351      cache-references:u                                          
-                48      cache-misses:u            #    3,553 % of all cache refs    
-            10.656      branches:u                                                  
+   940.970.010.356      instructions:u            #    1,78  insn per cycle                                            
+   528.191.902.757      cycles:u                                                    
+         1.765.959      cache-references:u                                          
+            42.893      cache-misses:u            #    2,429 % of all cache refs    
+    99.990.751.416      branches:u                                                  
 
-       0,000747728 seconds time elapsed
+     204,251032022 seconds time elapsed
 
-# started on Mon Mar  4 19:21:01 2024
+# started on Sun Mar 17 14:45:04 2024
 
 
- Performance counter stats for './km.intel --nthreads 8 --class huge':
+ Performance counter stats for './km.intel --nthreads 1 --class huge':
 
-            42.989      instructions:u            #    0,33  insn per cycle                                            
-           128.807      cycles:u                                                    
-             1.257      cache-references:u                                          
-                37      cache-misses:u            #    2,944 % of all cache refs    
-            10.656      branches:u                                                  
+   940.970.007.534      instructions:u            #    1,80  insn per cycle                                            
+   521.602.478.456      cycles:u                                                    
+           911.811      cache-references:u                                          
+            11.450      cache-misses:u            #    1,256 % of all cache refs    
+    99.990.748.594      branches:u                                                  
 
-       0,000763452 seconds time elapsed
+     201,435204447 seconds time elapsed
 
-# started on Mon Mar  4 19:21:02 2024
+# started on Sun Mar 17 14:48:26 2024
 
 
- Performance counter stats for './km.intel --nthreads 8 --class huge':
+ Performance counter stats for './km.intel --nthreads 1 --class huge':
 
-            42.989      instructions:u            #    0,32  insn per cycle                                            
-           132.945      cycles:u                                                    
-             1.298      cache-references:u                                          
-                25      cache-misses:u            #    1,926 % of all cache refs    
-            10.656      branches:u                                                  
+   940.970.006.049      instructions:u            #    1,82  insn per cycle                                            
+   517.881.109.630      cycles:u                                                    
+           496.182      cache-references:u                                          
+             2.079      cache-misses:u            #    0,419 % of all cache refs    
+    99.990.747.161      branches:u                                                  
 
-       0,000778209 seconds time elapsed
+     200,007636822 seconds time elapsed
 
-# started on Mon Mar  4 19:21:02 2024
+# started on Sun Mar 17 14:51:46 2024
 
 
- Performance counter stats for './km.intel --nthreads 8 --class huge':
+ Performance counter stats for './km.intel --nthreads 1 --class huge':
 
-            42.989      instructions:u            #    0,32  insn per cycle                                            
-           133.093      cycles:u                                                    
-             1.331      cache-references:u                                          
-                31      cache-misses:u            #    2,329 % of all cache refs    
-            10.656      branches:u                                                  
+   940.970.005.399      instructions:u            #    1,82  insn per cycle                                            
+   516.070.348.320      cycles:u                                                    
+           702.890      cache-references:u                                          
+             1.103      cache-misses:u            #    0,157 % of all cache refs    
+    99.990.746.457      branches:u                                                  
 
-       0,001067668 seconds time elapsed
+     199,299145973 seconds time elapsed
 
-# started on Mon Mar  4 19:21:02 2024
+# started on Sun Mar 17 14:55:06 2024
 
 
- Performance counter stats for './km.intel --nthreads 8 --class huge':
+ Performance counter stats for './km.intel --nthreads 1 --class huge':
 
-            42.989      instructions:u            #    0,32  insn per cycle                                            
-           135.573      cycles:u                                                    
-             1.377      cache-references:u                                          
-                45      cache-misses:u            #    3,268 % of all cache refs    
-            10.656      branches:u                                                  
+   940.970.007.334      instructions:u            #    1,81  insn per cycle                                            
+   521.217.713.405      cycles:u                                                    
+           535.293      cache-references:u                                          
+             1.886      cache-misses:u            #    0,352 % of all cache refs    
+    99.990.748.404      branches:u                                                  
 
-       0,000944945 seconds time elapsed
+     201,243171374 seconds time elapsed
 
-# started on Mon Mar  4 19:21:02 2024
+# started on Sun Mar 17 14:58:27 2024
 
 
- Performance counter stats for './km.intel --nthreads 8 --class huge':
+ Performance counter stats for './km.intel --nthreads 1 --class huge':
 
-            42.990      instructions:u            #    0,33  insn per cycle                                            
-           131.419      cycles:u                                                    
-             1.477      cache-references:u                                          
-                22      cache-misses:u            #    1,490 % of all cache refs    
-            10.657      branches:u                                                  
+   940.970.007.872      instructions:u            #    1,80  insn per cycle                                            
+   522.379.385.476      cycles:u                                                    
+           623.676      cache-references:u                                          
+             1.570      cache-misses:u            #    0,252 % of all cache refs    
+    99.990.748.932      branches:u                                                  
 
-       0,000795341 seconds time elapsed
+     201,775256468 seconds time elapsed
 
-# started on Mon Mar  4 19:21:03 2024
+# started on Sun Mar 17 15:01:49 2024
 
 
- Performance counter stats for './km.intel --nthreads 8 --class huge':
+ Performance counter stats for './km.intel --nthreads 1 --class huge':
 
-            42.989      instructions:u            #    0,33  insn per cycle                                            
-           130.846      cycles:u                                                    
-             1.390      cache-references:u                                          
-                57      cache-misses:u            #    4,101 % of all cache refs    
-            10.656      branches:u                                                  
+   940.970.011.731      instructions:u            #    1,77  insn per cycle                                            
+   532.207.207.919      cycles:u                                                    
+           543.495      cache-references:u                                          
+            27.280      cache-misses:u            #    5,019 % of all cache refs    
+    99.990.752.801      branches:u                                                  
 
-       0,000804151 seconds time elapsed
+     205,638160020 seconds time elapsed
 
-# started on Mon Mar  4 19:21:03 2024
+# started on Sun Mar 17 15:05:15 2024
 
 
- Performance counter stats for './km.intel --nthreads 8 --class huge':
+ Performance counter stats for './km.intel --nthreads 1 --class huge':
 
-            42.989      instructions:u            #    0,31  insn per cycle                                            
-           138.576      cycles:u                                                    
-             1.648      cache-references:u                                          
-                38      cache-misses:u            #    2,306 % of all cache refs    
-            10.656      branches:u                                                  
+   940.970.009.396      instructions:u            #    1,79  insn per cycle                                            
+   526.471.200.364      cycles:u                                                    
+           544.073      cache-references:u                                          
+             1.349      cache-misses:u            #    0,248 % of all cache refs    
+    99.990.750.486      branches:u                                                  
 
-       0,000858578 seconds time elapsed
+     203,315936052 seconds time elapsed
 
-# started on Mon Mar  4 19:21:03 2024
+# started on Sun Mar 17 15:08:39 2024
 
 
- Performance counter stats for './km.intel --nthreads 8 --class huge':
+ Performance counter stats for './km.intel --nthreads 1 --class huge':
 
-            42.989      instructions:u            #    0,32  insn per cycle                                            
-           133.632      cycles:u                                                    
-             1.373      cache-references:u                                          
-                 0      cache-misses:u            #    0,000 % of all cache refs    
-            10.656      branches:u                                                  
+   940.970.007.236      instructions:u            #    1,81  insn per cycle                                            
+   520.496.565.430      cycles:u                                                    
+           653.740      cache-references:u                                          
+            30.732      cache-misses:u            #    4,701 % of all cache refs    
+    99.990.748.306      branches:u                                                  
 
-       0,000802711 seconds time elapsed
+     201,150018460 seconds time elapsed
 
-# started on Mon Mar  4 19:21:03 2024
+# started on Sun Mar 17 15:12:00 2024
 
 
- Performance counter stats for './km.intel --nthreads 8 --class huge':
+ Performance counter stats for './km.intel --nthreads 1 --class huge':
 
-            42.989      instructions:u            #    0,31  insn per cycle                                            
-           137.234      cycles:u                                                    
-             1.321      cache-references:u                                          
-               119      cache-misses:u            #    9,008 % of all cache refs    
-            10.656      branches:u                                                  
+   940.970.007.560      instructions:u            #    1,80  insn per cycle                                            
+   521.628.686.369      cycles:u                                                    
+           868.259      cache-references:u                                          
+             1.621      cache-misses:u            #    0,187 % of all cache refs    
+    99.990.748.620      branches:u                                                  
 
-       0,000895678 seconds time elapsed
+     201,460218639 seconds time elapsed
 
-# started on Mon Mar  4 19:21:04 2024
+# started on Sun Mar 17 15:15:22 2024
 
 
- Performance counter stats for './km.intel --nthreads 8 --class huge':
+ Performance counter stats for './km.intel --nthreads 1 --class huge':
 
-            42.989      instructions:u            #    0,33  insn per cycle                                            
-           130.248      cycles:u                                                    
-             1.409      cache-references:u                                          
-                 7      cache-misses:u            #    0,497 % of all cache refs    
-            10.656      branches:u                                                  
+   940.970.011.544      instructions:u            #    1,77  insn per cycle                                            
+   531.701.790.905      cycles:u                                                    
+         1.076.336      cache-references:u                                          
+            17.088      cache-misses:u            #    1,588 % of all cache refs    
+    99.990.752.604      branches:u                                                  
 
-       0,000733981 seconds time elapsed
+     205,435836495 seconds time elapsed
 
-# started on Mon Mar  4 19:21:04 2024
+# started on Sun Mar 17 15:18:47 2024
 
 
- Performance counter stats for './km.intel --nthreads 8 --class huge':
+ Performance counter stats for './km.intel --nthreads 1 --class huge':
 
-            42.989      instructions:u            #    0,33  insn per cycle                                            
-           129.503      cycles:u                                                    
-             1.318      cache-references:u                                          
-                45      cache-misses:u            #    3,414 % of all cache refs    
-            10.656      branches:u                                                  
+   940.970.009.645      instructions:u            #    1,79  insn per cycle                                            
+   526.960.264.597      cycles:u                                                    
+           505.977      cache-references:u                                          
+             1.303      cache-misses:u            #    0,258 % of all cache refs    
+    99.990.750.715      branches:u                                                  
 
-       0,000706330 seconds time elapsed
+     203,551876883 seconds time elapsed
 
-# started on Mon Mar  4 19:21:04 2024
+# started on Sun Mar 17 15:22:11 2024
 
 
- Performance counter stats for './km.intel --nthreads 8 --class huge':
+ Performance counter stats for './km.intel --nthreads 1 --class huge':
 
-            42.988      instructions:u            #    0,34  insn per cycle                                            
-           125.235      cycles:u                                                    
-             1.308      cache-references:u                                          
-                21      cache-misses:u            #    1,606 % of all cache refs    
-            10.655      branches:u                                                  
+   940.970.004.599      instructions:u            #    1,79  insn per cycle                                            
+   527.058.677.973      cycles:u                                                    
+           803.179      cache-references:u                                          
+            20.043      cache-misses:u            #    2,495 % of all cache refs    
+    99.990.745.669      branches:u                                                  
 
-       0,000893525 seconds time elapsed
+     203,610475717 seconds time elapsed
 
-# started on Mon Mar  4 19:21:04 2024
+# started on Sun Mar 17 15:25:35 2024
 
 
- Performance counter stats for './km.intel --nthreads 8 --class huge':
+ Performance counter stats for './km.intel --nthreads 1 --class huge':
 
-            42.989      instructions:u            #    0,32  insn per cycle                                            
-           134.317      cycles:u                                                    
-             1.394      cache-references:u                                          
-                55      cache-misses:u            #    3,945 % of all cache refs    
-            10.656      branches:u                                                  
+   940.970.010.196      instructions:u            #    1,78  insn per cycle                                            
+   527.828.854.826      cycles:u                                                    
+         2.044.489      cache-references:u                                          
+            22.812      cache-misses:u            #    1,116 % of all cache refs    
+    99.990.751.276      branches:u                                                  
 
-       0,000847785 seconds time elapsed
+     204,101295768 seconds time elapsed
 
-# started on Mon Mar  4 19:21:04 2024
+# started on Sun Mar 17 15:28:59 2024
 
 
- Performance counter stats for './km.intel --nthreads 8 --class huge':
+ Performance counter stats for './km.intel --nthreads 1 --class huge':
 
-            42.989      instructions:u            #    0,33  insn per cycle                                            
-           131.668      cycles:u                                                    
-             1.365      cache-references:u                                          
-                21      cache-misses:u            #    1,538 % of all cache refs    
-            10.656      branches:u                                                  
+   940.970.005.071      instructions:u            #    1,82  insn per cycle                                            
+   515.745.559.671      cycles:u                                                    
+         1.026.263      cache-references:u                                          
+             1.067      cache-misses:u            #    0,104 % of all cache refs    
+    99.990.746.107      branches:u                                                  
 
-       0,000859712 seconds time elapsed
+     198,949044703 seconds time elapsed
 
-# started on Mon Mar  4 19:21:05 2024
+# started on Sun Mar 17 15:32:18 2024
 
 
- Performance counter stats for './km.intel --nthreads 8 --class huge':
+ Performance counter stats for './km.intel --nthreads 1 --class huge':
 
-            42.989      instructions:u            #    0,31  insn per cycle                                            
-           137.673      cycles:u                                                    
-             1.436      cache-references:u                                          
-                61      cache-misses:u            #    4,248 % of all cache refs    
-            10.656      branches:u                                                  
+   940.970.004.768      instructions:u            #    1,83  insn per cycle                                            
+   515.119.933.172      cycles:u                                                    
+         2.323.561      cache-references:u                                          
+               677      cache-misses:u            #    0,029 % of all cache refs    
+    99.990.745.854      branches:u                                                  
 
-       0,000804002 seconds time elapsed
+     198,701272298 seconds time elapsed
 
-# started on Mon Mar  4 19:21:05 2024
+# started on Sun Mar 17 15:35:37 2024
 
 
- Performance counter stats for './km.intel --nthreads 8 --class huge':
+ Performance counter stats for './km.intel --nthreads 1 --class huge':
 
-            42.989      instructions:u            #    0,32  insn per cycle                                            
-           133.392      cycles:u                                                    
-             1.491      cache-references:u                                          
-                20      cache-misses:u            #    1,341 % of all cache refs    
-            10.656      branches:u                                                  
+   940.970.009.540      instructions:u            #    1,79  insn per cycle                                            
+   526.464.890.596      cycles:u                                                    
+           645.128      cache-references:u                                          
+            19.537      cache-misses:u            #    3,028 % of all cache refs    
+    99.990.750.600      branches:u                                                  
 
-       0,000814767 seconds time elapsed
+     203,436442389 seconds time elapsed
 
-# started on Mon Mar  4 19:21:05 2024
+# started on Sun Mar 17 15:39:01 2024
 
 
- Performance counter stats for './km.intel --nthreads 8 --class huge':
+ Performance counter stats for './km.intel --nthreads 1 --class huge':
 
-            42.989      instructions:u            #    0,33  insn per cycle                                            
-           128.811      cycles:u                                                    
-             1.315      cache-references:u                                          
-                20      cache-misses:u            #    1,521 % of all cache refs    
-            10.656      branches:u                                                  
+   940.970.007.202      instructions:u            #    1,81  insn per cycle                                            
+   521.130.236.888      cycles:u                                                    
+           680.289      cache-references:u                                          
+             1.095      cache-misses:u            #    0,161 % of all cache refs    
+    99.990.748.310      branches:u                                                  
 
-       0,000789204 seconds time elapsed
+     201,148105942 seconds time elapsed
 
-# started on Mon Mar  4 19:21:05 2024
+# started on Sun Mar 17 15:42:22 2024
 
 
- Performance counter stats for './km.intel --nthreads 8 --class huge':
+ Performance counter stats for './km.intel --nthreads 1 --class huge':
 
-            42.989      instructions:u            #    0,34  insn per cycle                                            
-           126.153      cycles:u                                                    
-             1.313      cache-references:u                                          
-                 9      cache-misses:u            #    0,685 % of all cache refs    
-            10.656      branches:u                                                  
+   940.970.009.710      instructions:u            #    1,79  insn per cycle                                            
+   526.366.778.478      cycles:u                                                    
+           671.652      cache-references:u                                          
+            13.700      cache-misses:u            #    2,040 % of all cache refs    
+    99.990.750.780      branches:u                                                  
 
-       0,000781791 seconds time elapsed
+     203,613354310 seconds time elapsed
 
-# started on Mon Mar  4 19:21:06 2024
+# started on Sun Mar 17 15:45:46 2024
 
 
- Performance counter stats for './km.intel --nthreads 8 --class huge':
+ Performance counter stats for './km.intel --nthreads 1 --class huge':
 
-            42.988      instructions:u            #    0,31  insn per cycle                                            
-           139.962      cycles:u                                                    
-             1.322      cache-references:u                                          
-                20      cache-misses:u            #    1,513 % of all cache refs    
-            10.655      branches:u                                                  
+   940.970.010.177      instructions:u            #    1,78  insn per cycle                                            
+   527.870.282.520      cycles:u                                                    
+           785.490      cache-references:u                                          
+            13.055      cache-misses:u            #    1,662 % of all cache refs    
+    99.990.751.247      branches:u                                                  
 
-       0,000703907 seconds time elapsed
+     204,080998771 seconds time elapsed
 

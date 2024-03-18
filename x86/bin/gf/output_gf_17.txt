@@ -1,13 +1,13 @@
-# started on Mon Mar  4 19:20:56 2024
+# started on Sun Mar 17 13:19:14 2024
 
 
- Performance counter stats for './gf.intel --nthreads 8 --class huge':
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
 
-            42.668      instructions:u            #    0,33  insn per cycle                                            
-           128.958      cycles:u                                                    
-             1.329      cache-references:u                                          
-                30      cache-misses:u            #    2,257 % of all cache refs    
-            10.590      branches:u                                                  
+ 3.310.672.875.179      instructions:u            #    2,09  insn per cycle                                            
+ 1.581.060.664.139      cycles:u                                                    
+    51.871.869.505      cache-references:u                                          
+         1.114.734      cache-misses:u            #    0,002 % of all cache refs    
+   480.688.636.926      branches:u                                                  
 
-       0,000634618 seconds time elapsed
+    1088,607654343 seconds time elapsed
 
