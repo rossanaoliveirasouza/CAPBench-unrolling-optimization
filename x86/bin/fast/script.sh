@@ -16,7 +16,7 @@ do
     programa_output_file="./output_fast_$i.txt"
 
     # Comando a ser executado, redirecionando a saída para o arquivo de dados brutos do perf
-    command="perf stat -o $programa_output_file -B -e instructions:u,cycles:u,cache-references:u,cache-misses:u,branches:u ./fast.intel --nthreads 1 --class huge > /dev/null 2>&1"
+    command="perf stat -o $programa_output_file -B -e instructions:u,cycles:u,cache-references:u,cache-misses:u,branches:u ./fast.intel --nthreads 1 --class standard > /dev/null 2>&1"
 
     # Executa o comando
     eval $command
