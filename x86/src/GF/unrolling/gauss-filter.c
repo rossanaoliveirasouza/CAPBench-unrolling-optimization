@@ -24,7 +24,7 @@ void gauss_filter(unsigned char *img, int imgsize, double *mask, int masksize)
 	int imgI, imgJ, maskI, maskJ;
 	
 	newimg = scalloc(imgsize * imgsize, sizeof(unsigned char));
-
+	
 	#define MASK(i, j) \
 		mask[(i)*masksize + (j)]
 	
@@ -40,30 +40,26 @@ void gauss_filter(unsigned char *img, int imgsize, double *mask, int masksize)
 	{
 		#pragma omp for
 		for (imgI = half; imgI < imgsize - half; imgI++)
-		{   
+		{			
 			for (imgJ = half; imgJ < imgsize - half; imgJ++)
 			{
 				pixel = 0.0;
-				for (maskI = 0; maskI < masksize; maskI++) {
-					for (maskJ = 0; maskJ < masksize; maskJ += 2) {
+				for (maskI = 0; maskI < masksize; maskI++)
+					for (maskJ = 0; maskJ < masksize; maskJ++)
 						pixel += IMG(imgI + maskI - half, imgJ + maskJ - half) * MASK(maskI, maskJ);
-						if((maskJ + 1) < masksize) {
-							pixel += IMG(imgI + maskI - half, imgJ + (maskJ + 1) - half) * MASK(maskI, maskJ + 1);
-						}
-					}
-				}
+				   
 				NEWIMG(imgI, imgJ) = (pixel > 255) ? 255 : (int)pixel;
 			}
 		}
 	}
-
-	// printf("OUTPUT X86:\n");
-	// for (imgI = 0; imgI < imgsize; imgI++)
-	// {
-	// 	for (imgJ = 0; imgJ < imgsize; imgJ++)
-	// 		fprintf(stderr, "%d ", NEWIMG(imgI, imgJ));
-	// 	fprintf(stderr, "\n");
-	// }
-
+	
+	printf("OUTPUT X86:\n");
+	for (imgI = 0; imgI < imgsize; imgI++)
+	{			
+		for (imgJ = 0; imgJ < imgsize; imgJ++)
+			fprintf(stderr, "%d ",	NEWIMG(imgI, imgJ));
+		fprintf(stderr, "\n");
+	}
+	
 	free(newimg);
 }

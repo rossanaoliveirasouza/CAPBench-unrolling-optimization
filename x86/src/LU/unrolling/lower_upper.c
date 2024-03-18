@@ -76,27 +76,16 @@ static float _find_pivot(struct matrix *m, int i0, int j0)
 		#pragma omp for
 		for (i = i0; i < m->height; i++)
 		{
-			for (j = j0; j < m->width; j ++)  // Unrolling com incremento de 2 em j
+			for (j = j0; j < m->width; j++)
 			{
 				/* Found. */
-				if (fabs(MATRIX(m, i, j)) < fabs(MATRIX(m, pipvt, pjpvt)))
-				{
-					pipvt = i;
-					pjpvt = j;
-				}
-
-				/* Unrolling: processar o próximo elemento. */
-				j++;
-
-				/* Found (para o próximo elemento). */
-				if (fabs(MATRIX(m, i, j)) < fabs(MATRIX(m, pipvt, pjpvt)) &&  j < m->width)
+				if (fabs(MATRIX(m, i, j)) < fabs(MATRIX(m,pipvt,pjpvt)))
 				{
 					pipvt = i;
 					pjpvt = j;
 				}
 			}
 		}
-
 		
 		/* Reduct. */
 		#pragma omp critical
@@ -122,38 +111,23 @@ static void _row_reduction(struct matrix *m, int i0, float pivot)
 {
 	int j0;      /* Starting column. */
 	int i, j;    /* Loop indexes.    */
-	float mult1, mult2;  /* Row multiplier.  */
+	float mult;  /* Row multiplier.  */
 	
 	j0 = i0;
 	
 	/* Apply row redution in some lines. */
-	#pragma omp parallel for private(i, j, mult1, mult2) default(shared)
-	for (i = i0 + 1; i < m->height; i++)  // Unrolling com incremento de 2 em i
+	#pragma omp parallel for private(i, j, mult) default(shared)
+	for (i = i0 + 1; i < m->height; i++)
 	{
-		mult1 = MATRIX(m, i, j0) / pivot;
-
+		mult = MATRIX(m, i, j0)/pivot;
+	
 		/* Store multiplier. */
-		MATRIX(m, i, j0) = mult1;
-
+		MATRIX(m, i, j0) = mult;
+	
 		/* Iterate over columns. */
 		for (j = j0 + 1; j < m->width; j++)
-			MATRIX(m, i, j) = MATRIX(m, i, j) - mult1 * MATRIX(m, i0, j);
-
-		/* Unrolling: processar o próximo elemento. */
-		i++;
-		if(i < m->height) {
-			mult2 = MATRIX(m, i, j0) / pivot;
-
-			/* Store multiplier. */
-			MATRIX(m, i, j0) = mult2;
-
-			/* Iterate over columns (para o próximo elemento). */
-			for (j = j0 + 1; j < m->width; j++)
-				MATRIX(m, i, j) = MATRIX(m, i, j) - mult2 * MATRIX(m, i0, j);
-		}
-
+			MATRIX(m, i, j) = MATRIX(m, i, j) - mult*MATRIX(m, i0, j);
 	}
-
 }
 
 /*
