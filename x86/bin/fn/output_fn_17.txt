@@ -1,13 +1,13 @@
-# started on Mon Mar 18 11:46:30 2024
+# started on Mon Mar 18 14:01:16 2024
 
 
  Performance counter stats for './fn.intel --nthreads 1 --class standard':
 
-   154.975.604.996      instructions:u            #    0,91  insn per cycle                                            
-   170.405.092.389      cycles:u                                                    
-            17.002      cache-references:u                                          
-             1.835      cache-misses:u            #   10,793 % of all cache refs    
-    17.995.268.313      branches:u                                                  
+   126.540.528.104      instructions:u            #    0,86  insn per cycle                                            
+   146.595.883.148      cycles:u                                                    
+            20.877      cache-references:u                                          
+             3.333      cache-misses:u            #   15,965 % of all cache refs    
+     2.720.135.637      branches:u                                                  
 
-      71,196937789 seconds time elapsed
+      61,245714260 seconds time elapsed
 

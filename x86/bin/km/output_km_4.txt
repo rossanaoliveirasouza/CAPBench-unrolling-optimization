@@ -1,13 +1,13 @@
-# started on Mon Mar 18 12:14:35 2024
+# started on Mon Mar 18 14:28:34 2024
 
 
  Performance counter stats for './km.intel --nthreads 1 --class standard':
 
-   125.216.946.978      instructions:u            #    1,81  insn per cycle                                            
-    69.099.606.025      cycles:u                                                    
-           212.816      cache-references:u                                          
-             1.033      cache-misses:u            #    0,485 % of all cache refs    
-    13.306.150.722      branches:u                                                  
+   123.558.196.470      instructions:u            #    1,70  insn per cycle                                            
+    72.846.535.362      cycles:u                                                    
+           138.257      cache-references:u                                          
+             2.493      cache-misses:u            #    1,803 % of all cache refs    
+     9.984.998.072      branches:u                                                  
 
-      28,877462801 seconds time elapsed
+      30,435315710 seconds time elapsed
 
