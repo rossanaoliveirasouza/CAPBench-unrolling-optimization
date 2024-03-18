@@ -1,13 +1,13 @@
-# started on Sun Mar 17 15:54:05 2024
+# started on Mon Mar 18 12:23:57 2024
 
 
- Performance counter stats for './lu.intel --nthreads 1 --class huge':
+ Performance counter stats for './lu.intel --nthreads 1 --class standard':
 
-   101.266.522.800      instructions:u            #    1,89  insn per cycle                                            
-    53.626.421.797      cycles:u                                                    
-       240.340.836      cache-references:u                                          
-        79.334.893      cache-misses:u            #   33,009 % of all cache refs    
-     7.066.236.122      branches:u                                                  
+    21.962.585.675      instructions:u            #    1,97  insn per cycle                                            
+    11.138.407.043      cycles:u                                                    
+        40.227.653      cache-references:u                                          
+           161.727      cache-misses:u            #    0,402 % of all cache refs    
+     1.537.613.038      branches:u                                                  
 
-      20,784006316 seconds time elapsed
+       4,673503563 seconds time elapsed
 
