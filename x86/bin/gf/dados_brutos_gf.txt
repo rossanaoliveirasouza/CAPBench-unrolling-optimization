@@ -665,3 +665,18 @@ ed
 
     1171,920316599 seconds time elapsed
 
+# started on Mon Mar 18 14:12:15 2024
+
+
+ Performance counter stats for './gf.intel --nthreads 1 --class huge':
+
+ 2.808.991.026.296      instructions:u            #    1,86  insn per cycle                                            
+ 1.509.604.867.316      cycles:u                                                    
+    34.880.541.212      cache-references:u                                          
+         1.479.541      cache-misses:u            #    0,004 % of all cache refs    
+   383.194.964.085      branches:u                                                  
+
+    1157,138527221 seconds time elapsed
+
+ed
+

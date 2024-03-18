@@ -102,3 +102,42 @@
 
       30,561403871 seconds time elapsed
 
+# started on Mon Mar 18 14:31:08 2024
+
+
+ Performance counter stats for './km.intel --nthreads 1 --class standard':
+
+   123.558.196.448      instructions:u            #    1,70  insn per cycle                                            
+    72.805.870.166      cycles:u                                                    
+           141.010      cache-references:u                                          
+             6.471      cache-misses:u            #    4,589 % of all cache refs    
+     9.984.998.045      branches:u                                                  
+
+      30,416246586 seconds time elapsed
+
+# started on Mon Mar 18 14:31:39 2024
+
+
+ Performance counter stats for './km.intel --nthreads 1 --class standard':
+
+   123.558.196.793      instructions:u            #    1,68  insn per cycle                                            
+    73.490.706.969      cycles:u                                                    
+           113.395      cache-references:u                                          
+             8.690      cache-misses:u            #    7,663 % of all cache refs    
+     9.984.998.405      branches:u                                                  
+
+      30,720523799 seconds time elapsed
+
+# started on Mon Mar 18 14:32:10 2024
+
+
+ Performance counter stats for './km.intel --nthreads 1 --class standard':
+
+   123.558.196.662      instructions:u            #    1,69  insn per cycle                                            
+    73.242.519.866      cycles:u                                                    
+           112.669      cache-references:u                                          
+             7.863      cache-misses:u            #    6,979 % of all cache refs    
+     9.984.998.292      branches:u                                                  
+
+      30,616686029 seconds time elapsed
+
