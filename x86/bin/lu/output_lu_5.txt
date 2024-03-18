@@ -1,0 +1,13 @@
+# started on Mon Mar 18 15:30:50 2024
+
+
+ Performance counter stats for './lu.intel --nthreads 1 --class standard':
+
+    16.537.819.553      instructions:u            #    3,02  insn per cycle                                            
+     5.469.729.754      cycles:u                                                    
+        39.700.627      cache-references:u                                          
+             9.783      cache-misses:u            #    0,025 % of all cache refs    
+     2.749.828.951      branches:u                                                  
+
+       2,147301640 seconds time elapsed
+

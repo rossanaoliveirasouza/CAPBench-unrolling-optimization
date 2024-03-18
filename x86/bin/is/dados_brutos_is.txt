@@ -1,0 +1,260 @@
+# started on Mon Mar 18 15:19:36 2024
+
+
+ Performance counter stats for './is.intel --nthreads 1 --class standard':
+
+    13.077.220.358      instructions:u            #    0,83  insn per cycle                                            
+    15.732.931.026      cycles:u                                                    
+        86.653.517      cache-references:u                                          
+         6.155.548      cache-misses:u            #    7,104 % of all cache refs    
+     1.968.472.899      branches:u                                                  
+
+       6,342164024 seconds time elapsed
+
+# started on Mon Mar 18 15:19:42 2024
+
+
+ Performance counter stats for './is.intel --nthreads 1 --class standard':
+
+    13.077.220.970      instructions:u            #    0,83  insn per cycle                                            
+    15.686.941.844      cycles:u                                                    
+        87.212.930      cache-references:u                                          
+         6.145.879      cache-misses:u            #    7,047 % of all cache refs    
+     1.968.473.518      branches:u                                                  
+
+       6,299759536 seconds time elapsed
+
+# started on Mon Mar 18 15:19:49 2024
+
+
+ Performance counter stats for './is.intel --nthreads 1 --class standard':
+
+    13.077.221.373      instructions:u            #    0,83  insn per cycle                                            
+    15.690.493.082      cycles:u                                                    
+        87.025.897      cache-references:u                                          
+         6.142.804      cache-misses:u            #    7,059 % of all cache refs    
+     1.968.473.921      branches:u                                                  
+
+       6,303486486 seconds time elapsed
+
+# started on Mon Mar 18 15:19:55 2024
+
+
+ Performance counter stats for './is.intel --nthreads 1 --class standard':
+
+    13.077.225.222      instructions:u            #    0,94  insn per cycle                                            
+    13.984.053.889      cycles:u                                                    
+        94.078.766      cache-references:u                                          
+         6.130.934      cache-misses:u            #    6,517 % of all cache refs    
+     1.968.477.759      branches:u                                                  
+
+       5,660695581 seconds time elapsed
+
+# started on Mon Mar 18 15:20:01 2024
+
+
+ Performance counter stats for './is.intel --nthreads 1 --class standard':
+
+    13.077.237.786      instructions:u            #    0,83  insn per cycle                                            
+    15.712.293.673      cycles:u                                                    
+        86.894.527      cache-references:u                                          
+         6.155.905      cache-misses:u            #    7,084 % of all cache refs    
+     1.968.490.329      branches:u                                                  
+
+       6,317014282 seconds time elapsed
+
+# started on Mon Mar 18 15:20:08 2024
+
+
+ Performance counter stats for './is.intel --nthreads 1 --class standard':
+
+    13.077.221.421      instructions:u            #    0,83  insn per cycle                                            
+    15.683.005.944      cycles:u                                                    
+        87.079.642      cache-references:u                                          
+         6.159.378      cache-misses:u            #    7,073 % of all cache refs    
+     1.968.473.971      branches:u                                                  
+
+       6,290626359 seconds time elapsed
+
+# started on Mon Mar 18 15:20:14 2024
+
+
+ Performance counter stats for './is.intel --nthreads 1 --class standard':
+
+    13.077.220.995      instructions:u            #    0,86  insn per cycle                                            
+    15.123.628.021      cycles:u                                                    
+        89.346.118      cache-references:u                                          
+         6.153.597      cache-misses:u            #    6,887 % of all cache refs    
+     1.968.473.538      branches:u                                                  
+
+       6,079367255 seconds time elapsed
+
+# started on Mon Mar 18 15:20:20 2024
+
+
+ Performance counter stats for './is.intel --nthreads 1 --class standard':
+
+    13.077.220.964      instructions:u            #    0,83  insn per cycle                                            
+    15.717.506.196      cycles:u                                                    
+        89.009.370      cache-references:u                                          
+         6.144.620      cache-misses:u            #    6,903 % of all cache refs    
+     1.968.473.507      branches:u                                                  
+
+       6,325348809 seconds time elapsed
+
+# started on Mon Mar 18 15:20:27 2024
+
+
+ Performance counter stats for './is.intel --nthreads 1 --class standard':
+
+    13.077.221.599      instructions:u            #    0,83  insn per cycle                                            
+    15.688.743.694      cycles:u                                                    
+        87.859.723      cache-references:u                                          
+         6.145.660      cache-misses:u            #    6,995 % of all cache refs    
+     1.968.474.140      branches:u                                                  
+
+       6,293815452 seconds time elapsed
+
+# started on Mon Mar 18 15:20:33 2024
+
+
+ Performance counter stats for './is.intel --nthreads 1 --class standard':
+
+    13.077.221.284      instructions:u            #    0,83  insn per cycle                                            
+    15.696.968.868      cycles:u                                                    
+        86.729.602      cache-references:u                                          
+         6.157.429      cache-misses:u            #    7,100 % of all cache refs    
+     1.968.473.827      branches:u                                                  
+
+       6,299597242 seconds time elapsed
+
+# started on Mon Mar 18 15:20:40 2024
+
+
+ Performance counter stats for './is.intel --nthreads 1 --class standard':
+
+    13.077.220.023      instructions:u            #    0,83  insn per cycle                                            
+    15.690.893.493      cycles:u                                                    
+        86.521.413      cache-references:u                                          
+         6.152.024      cache-misses:u            #    7,110 % of all cache refs    
+     1.968.472.573      branches:u                                                  
+
+       6,300561371 seconds time elapsed
+
+# started on Mon Mar 18 15:20:46 2024
+
+
+ Performance counter stats for './is.intel --nthreads 1 --class standard':
+
+    13.077.221.195      instructions:u            #    0,83  insn per cycle                                            
+    15.694.579.715      cycles:u                                                    
+        86.700.149      cache-references:u                                          
+         6.145.665      cache-misses:u            #    7,088 % of all cache refs    
+     1.968.473.745      branches:u                                                  
+
+       6,301457984 seconds time elapsed
+
+# started on Mon Mar 18 15:20:53 2024
+
+
+ Performance counter stats for './is.intel --nthreads 1 --class standard':
+
+    13.077.220.784      instructions:u            #    0,83  insn per cycle                                            
+    15.699.040.226      cycles:u                                                    
+        86.970.991      cache-references:u                                          
+         6.147.917      cache-misses:u            #    7,069 % of all cache refs    
+     1.968.473.325      branches:u                                                  
+
+       6,322293068 seconds time elapsed
+
+# started on Mon Mar 18 15:20:59 2024
+
+
+ Performance counter stats for './is.intel --nthreads 1 --class standard':
+
+    13.077.221.074      instructions:u            #    0,83  insn per cycle                                            
+    15.734.164.601      cycles:u                                                    
+        88.420.969      cache-references:u                                          
+         6.150.152      cache-misses:u            #    6,956 % of all cache refs    
+     1.968.473.613      branches:u                                                  
+
+       6,318843196 seconds time elapsed
+
+# started on Mon Mar 18 15:21:06 2024
+
+
+ Performance counter stats for './is.intel --nthreads 1 --class standard':
+
+    13.077.220.855      instructions:u            #    0,83  insn per cycle                                            
+    15.688.536.157      cycles:u                                                    
+        88.456.554      cache-references:u                                          
+         6.158.743      cache-misses:u            #    6,962 % of all cache refs    
+     1.968.473.405      branches:u                                                  
+
+       6,310867318 seconds time elapsed
+
+# started on Mon Mar 18 15:21:12 2024
+
+
+ Performance counter stats for './is.intel --nthreads 1 --class standard':
+
+    13.077.221.137      instructions:u            #    0,83  insn per cycle                                            
+    15.695.912.974      cycles:u                                                    
+        87.300.668      cache-references:u                                          
+         6.156.401      cache-misses:u            #    7,052 % of all cache refs    
+     1.968.473.680      branches:u                                                  
+
+       6,311228839 seconds time elapsed
+
+# started on Mon Mar 18 15:21:19 2024
+
+
+ Performance counter stats for './is.intel --nthreads 1 --class standard':
+
+    13.077.220.996      instructions:u            #    0,83  insn per cycle                                            
+    15.691.948.599      cycles:u                                                    
+        87.277.075      cache-references:u                                          
+         6.150.970      cache-misses:u            #    7,048 % of all cache refs    
+     1.968.473.537      branches:u                                                  
+
+       6,316041183 seconds time elapsed
+
+# started on Mon Mar 18 15:21:25 2024
+
+
+ Performance counter stats for './is.intel --nthreads 1 --class standard':
+
+    13.077.225.492      instructions:u            #    0,94  insn per cycle                                            
+    13.976.023.033      cycles:u                                                    
+        94.511.668      cache-references:u                                          
+         6.138.172      cache-misses:u            #    6,495 % of all cache refs    
+     1.968.478.035      branches:u                                                  
+
+       5,652089131 seconds time elapsed
+
+# started on Mon Mar 18 15:21:31 2024
+
+
+ Performance counter stats for './is.intel --nthreads 1 --class standard':
+
+    13.077.221.472      instructions:u            #    0,83  insn per cycle                                            
+    15.687.302.326      cycles:u                                                    
+        86.736.742      cache-references:u                                          
+         6.144.474      cache-misses:u            #    7,084 % of all cache refs    
+     1.968.474.015      branches:u                                                  
+
+       6,292874672 seconds time elapsed
+
+# started on Mon Mar 18 15:21:38 2024
+
+
+ Performance counter stats for './is.intel --nthreads 1 --class standard':
+
+    13.077.221.447      instructions:u            #    0,83  insn per cycle                                            
+    15.684.451.533      cycles:u                                                    
+        86.205.456      cache-references:u                                          
+         6.139.498      cache-misses:u            #    7,122 % of all cache refs    
+     1.968.473.997      branches:u                                                  
+
+       6,290139846 seconds time elapsed
+
