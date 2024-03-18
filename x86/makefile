@@ -16,7 +16,7 @@ export CC = gcc
 export AR = ar
 
 # Tool chain configuration.
-export CFLAGS = -Wall -Wextra -Werror -O3 -fno-unroll-loops 
+export CFLAGS = -Wall -Wextra -Werror -O3 -funroll-loops 
 export CFLAGS += -I $(INCDIR)
 export ARFLAGS = -vq
 
