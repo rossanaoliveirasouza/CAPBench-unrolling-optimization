@@ -1,7 +1,7 @@
 /*
- * Copyright(C) 2014 Matheus M. Queiroz <matheus.miranda.queiroz@gmail.com>, 
+ * Copyright(C) 2014 Matheus M. Queiroz <matheus.miranda.queiroz@gmail.com>,
  *                   Pedro H. Penna <pedrohenriquepenna@gmail.com>
- * 
+ *
  * gaussian-filter.c - Gaussian filter kernel.
  */
 
@@ -22,34 +22,44 @@ void gauss_filter(unsigned char *img, int imgsize, double *mask, int masksize)
 	double pixel;
 	unsigned char *newimg;
 	int imgI, imgJ, maskI, maskJ;
-	
+
 	newimg = scalloc(imgsize * imgsize, sizeof(unsigned char));
 
-	#define MASK(i, j) \
-		mask[(i)*masksize + (j)]
-	
-	#define IMG(i, j) \
-		img[(i)*imgsize + (j)]
-	
-	#define NEWIMG(i, j) \
-		newimg[(i)*imgsize + (j)]
-	
-	half = masksize/2;
-	
-	#pragma omp parallel default(shared) private(imgI,imgJ,maskI,maskJ,pixel)
+#define MASK(i, j) \
+	mask[(i) * masksize + (j)]
+
+#define IMG(i, j) \
+	img[(i) * imgsize + (j)]
+
+#define NEWIMG(i, j) \
+	newimg[(i) * imgsize + (j)]
+
+	half = masksize / 2;
+
+#pragma omp parallel default(shared) private(imgI, imgJ, maskI, maskJ, pixel)
 	{
-		#pragma omp for
+#pragma omp for
 		for (imgI = half; imgI < imgsize - half; imgI++)
-		{   
+		{
 			for (imgJ = half; imgJ < imgsize - half; imgJ++)
 			{
 				pixel = 0.0;
-				for (maskI = 0; maskI < masksize; maskI++) {
-					for (maskJ = 0; maskJ < masksize; maskJ += 2) {
+				// for (maskI = 0; maskI < masksize; maskI++) {
+				// 	for (maskJ = 0; maskJ < masksize; maskJ += 2) {
+				// 		pixel += IMG(imgI + maskI - half, imgJ + maskJ - half) * MASK(maskI, maskJ);
+				// 		if((maskJ + 1) < masksize) {
+				// 			pixel += IMG(imgI + maskI - half, imgJ + (maskJ + 1) - half) * MASK(maskI, maskJ + 1);
+				// 		}
+				// 	}
+				// }
+				for (maskI = 0; maskI < masksize; maskI += 2)
+				{
+					for (maskJ = 0; maskJ < masksize; maskJ += 2)
+					{
 						pixel += IMG(imgI + maskI - half, imgJ + maskJ - half) * MASK(maskI, maskJ);
-						if((maskJ + 1) < masksize) {
-							pixel += IMG(imgI + maskI - half, imgJ + (maskJ + 1) - half) * MASK(maskI, maskJ + 1);
-						}
+						pixel += IMG(imgI + maskI + 1 - half, imgJ + maskJ - half) * MASK(maskI + 1, maskJ);
+						pixel += IMG(imgI + maskI - half, imgJ + maskJ + 1 - half) * MASK(maskI, maskJ + 1);
+						pixel += IMG(imgI + maskI + 1 - half, imgJ + maskJ + 1 - half) * MASK(maskI + 1, maskJ + 1);
 					}
 				}
 				NEWIMG(imgI, imgJ) = (pixel > 255) ? 255 : (int)pixel;
