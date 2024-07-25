@@ -44,22 +44,12 @@ void gauss_filter(unsigned char *img, int imgsize, double *mask, int masksize)
 			for (imgJ = half; imgJ < imgsize - half; imgJ++)
 			{
 				pixel = 0.0;
-				// for (maskI = 0; maskI < masksize; maskI++) {
-				// 	for (maskJ = 0; maskJ < masksize; maskJ += 2) {
-				// 		pixel += IMG(imgI + maskI - half, imgJ + maskJ - half) * MASK(maskI, maskJ);
-				// 		if((maskJ + 1) < masksize) {
-				// 			pixel += IMG(imgI + maskI - half, imgJ + (maskJ + 1) - half) * MASK(maskI, maskJ + 1);
-				// 		}
-				// 	}
-				// }
-				for (maskI = 0; maskI < masksize; maskI += 2)
-				{
-					for (maskJ = 0; maskJ < masksize; maskJ += 2)
-					{
+				for (maskI = 0; maskI < masksize; maskI++) {
+					for (maskJ = 0; maskJ < masksize; maskJ += 2) {
 						pixel += IMG(imgI + maskI - half, imgJ + maskJ - half) * MASK(maskI, maskJ);
-						pixel += IMG(imgI + maskI + 1 - half, imgJ + maskJ - half) * MASK(maskI + 1, maskJ);
-						pixel += IMG(imgI + maskI - half, imgJ + maskJ + 1 - half) * MASK(maskI, maskJ + 1);
-						pixel += IMG(imgI + maskI + 1 - half, imgJ + maskJ + 1 - half) * MASK(maskI + 1, maskJ + 1);
+						if((maskJ + 1) < masksize) {
+							pixel += IMG(imgI + maskI - half, imgJ + (maskJ + 1) - half) * MASK(maskI, maskJ + 1);
+						}
 					}
 				}
 				NEWIMG(imgI, imgJ) = (pixel > 255) ? 255 : (int)pixel;
