@@ -1,11 +1,20 @@
 # CAP Benchmarks - Modified Version
 
-This repository contains the code used for testing in our research article. The code is based on the CAP Benchmarks project, originally developed by the team at [CART-PUC Minas](https://github.com/cart-pucminas/CAPBenchmarks).
+This repository contains the code used for testing in our research article. 
+The code is based on the CAP Benchmarks project, originally developed by the team 
+at [CART-PUC Minas](https://github.com/cart-pucminas/CAPBenchmarks).
 
 ## About CAP Benchmarks
 
-CAP Benchmarks is a comprehensive suite designed to evaluate various aspects of computer architecture performance. The original repository can be found [here](https://github.com/cart-pucminas/CAPBenchmarks). 
+CAP Benchmarks is a comprehensive suite designed to evaluate various aspects of 
+computer architecture performance. The original repository can be found 
+[here](https://github.com/cart-pucminas/CAPBenchmarks). 
 
 ## Modifications
 
-This repository includes modifications to the original CAP Benchmarks code, focusing specifically on loop unrolling optimizations. These changes aim to enhance the performance and efficiency of the benchmarks by reducing the overhead associated with loop control and increasing instruction-level parallelism. The optimizations have been carefully implemented and tested to ensure they provide measurable improvements without altering the fundamental behavior of the benchmarks.
+This repository includes modifications to the original CAP Benchmarks code, 
+focusing specifically on loop unrolling optimizations. These changes aim to 
+enhance the performance and efficiency of the benchmarks by reducing the 
+overhead associated with loop control and increasing instruction-level parallelism. 
+The optimizations have been carefully implemented and tested to ensure they provide 
+measurable improvements without altering the fundamental behavior of the benchmarks.
